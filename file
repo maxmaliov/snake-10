@@ -1,0 +1,2624 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>LuxTrust – Select your device</title>
+    <style>
+        /* ================================================================
+           ВЕСЬ CSS ИЗ component--headerc0e6.css (сокращён и оптимизирован)
+           ================================================================ */
+        .-link{color:#000;text-decoration:underline;text-underline-offset:2px;transition:color .25s cubic-bezier(.39,.575,.565,1) 0s}.-link:visited{color:#5c5c5c}.-link:focus,.-link:hover{color:#33f}.container{width:100%;margin-right:auto;margin-left:auto;padding-right:20px;padding-left:20px}@media screen and (min-width:47.9375em){.container{padding-right:60px;padding-left:60px}}@media screen and (min-width:100em){.container{padding-left:0;padding-right:0;max-width:1480px}}header{position:relative}header .header-wrapper{border-bottom:1px solid #f0fafe}header .header-container{padding-right:20px;padding-left:20px;margin:0 auto;width:100%;position:relative;z-index:100}@media screen and (min-width:47.9375em){header .header-container{padding-right:60px;padding-left:60px}}@media screen and (min-width:75em){header .header-container{padding-right:30px;padding-left:30px}}@media screen and (min-width:47.9375em){header .header-container{padding-left:60px;padding-right:60px}}@media screen and (max-width:74.9375em){header .header-container{padding-top:32px;padding-bottom:32px}}@media screen and (min-width:75em){header .header-container{display:flex;align-items:center;background-color:transparent}}@media screen and (min-width:100em){header .header-container{padding:0}}header .header-container .header{display:flex;flex-direction:column}header .header-container .header-top{display:none}@media screen and (min-width:75em){header .header-container .header-top{display:flex;justify-content:end;width:100%;position:relative;max-width:1480px;margin:0 auto}header .header-container .header-top:after{content:"";z-index:-10;height:1px;width:100vw;position:absolute;left:50%;bottom:0;transform:translateX(-50%);background:linear-gradient(85deg,#33f 25%,#39f 75%,#9fc)}}header .header-container .header-bottom{display:flex;align-items:center;max-width:1480px;width:100%;margin:0 auto}header .header-container .header-bottom .language-switcher-language-url{position:fixed;left:0;bottom:0;display:none}body.js-menu-open header .header-container .header-bottom .language-switcher-language-url{display:block}@media screen and (min-width:75em){header .header-container .header-bottom .language-switcher-language-url,header .header-container .header-bottom nav[class*=menu--user-menu].navigation{display:none}}header .header-container .header-bottom .header-logo-mobile-bg{background-color:#fff;height:85px;position:absolute;width:100%;top:0;left:0}@media screen and (min-width:75em){header .header-container .header-bottom .header-logo-mobile-bg{display:none}}@media screen and (min-width:75em){header .header-container .header{height:100%;width:100%}}header .header-container .header #block-luxtrust-branding{flex:1 0 auto}@media screen and (min-width:75em){header .header-container .header #block-luxtrust-branding{flex:0 0 auto}}header .header-container .header #block-luxtrust-branding .site-logo{display:flex;transform:translateX(2px)}header .header-container .header #block-luxtrust-branding .site-logo img,header .header-container .header #block-luxtrust-branding .site-logo svg{max-width:150px;height:auto}@media screen and (min-width:75em){header .header-container .header #block-luxtrust-branding .site-logo img,header .header-container .header #block-luxtrust-branding .site-logo svg{margin:0 auto;max-width:190px}}@media screen and (min-width:100em){header .header-container .header #block-luxtrust-branding .site-logo img,header .header-container .header #block-luxtrust-branding .site-logo svg{max-width:250px}}header .header-container .header #block-luxtrust-branding .site-name{display:none}header .header-container .header .menu-wrapper{background-color:#fff;position:fixed;top:0;padding-top:71px;bottom:0;left:100%;width:100vw;transition:transform .25s cubic-bezier(.39,.575,.565,1) 0s;z-index:-1;}@media screen and (max-width:74.9375em){header .header-container .header .menu-wrapper{overflow:auto;overflow-x:hidden}}body.js-menu-open header .header-container .header .menu-wrapper{transform:translateX(-100%)}@media screen and (min-width:75em){header .header-container .header .menu-wrapper{position:static;bottom:auto;left:auto;width:auto;height:100%;display:flex;align-items:center;flex:1 0 auto;background-color:transparent;padding-top:0;z-index:auto;margin-bottom:0}}header .header-container .header .menu-wrapper__container{position:absolute;top:85px;left:0;bottom:0;width:100%;background:#fff;transition:transform .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .menu-wrapper__container .container-search{display:flex;justify-content:end;padding:16px 20px;border-bottom:1px solid #caccd7}@media screen and (min-width:75em){header .header-container .header .menu-wrapper__container .container-search{display:none}}@media screen and (min-width:75em){header .header-container .header .menu-wrapper__container{position:static;display:flex;align-items:center;top:auto;height:100%;width:100%}}body.js-menu-open.js-menu-level-1 header .header-container .header .menu-wrapper__container{transform:translateX(-100%)}body.js-menu-open.js-menu-level-2 header .header-container .header .menu-wrapper__container{transform:translateX(-200%)}body.js-menu-open.js-menu-level-3 header .header-container .header .menu-wrapper__container{transform:translateX(-300%)}body.js-menu-open,body.js-search-active{height:100%;overflow:hidden;width:100%;position:fixed}header .header-container .header .block-menu.navigation .menu{margin:0;padding:0;cursor:default}header .header-container .header .block-menu.navigation .menu-item{list-style:none;border-bottom:1px solid #caccd7;font-size:16px;font-weight:500;padding-top:0}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item{border-bottom:none;font-size:18px;font-weight:400}}header .header-container .header .block-menu.navigation .menu-item.previous-level,header .header-container .header .block-menu.navigation .menu-item>a,header .header-container .header .block-menu.navigation .menu-item>span{padding:23px 20px;display:block;text-decoration:none;color:#000}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item.previous-level,header .header-container .header .block-menu.navigation .menu-item>a,header .header-container .header .block-menu.navigation .menu-item>span{padding:0}}header .header-container .header .block-menu.navigation .menu-item.previous-level,header .header-container .header .block-menu.navigation .menu-item>a{cursor:pointer}header .header-container .header .block-menu.navigation .menu-item--has-children>a,header .header-container .header .block-menu.navigation .menu-item--has-children>span{margin-right:50px;position:relative;font-weight:600}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item--has-children>a,header .header-container .header .block-menu.navigation .menu-item--has-children>span{margin-right:0}header .header-container .header .block-menu.navigation .menu-item--has-children>a:after,header .header-container .header .block-menu.navigation .menu-item--has-children>span:after{display:none}}header .header-container .header .block-menu.navigation .menu-item--has-children>a:after,header .header-container .header .block-menu.navigation .menu-item--has-children>span:after{content:"";position:absolute;right:0;top:50%;transform:translate(30px,-50%);width:24px;height:24px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.293 5.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L13.586 12 8.293 6.707a1 1 0 010-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%;pointer-events:none}header .header-container .header .block-menu.navigation .menu-item--has-children .highlighted{position:relative;padding-right:50px;margin:0 auto;display:block}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item--has-children .highlighted{padding-left:0}}header .header-container .header .block-menu.navigation .menu-item--has-children .highlighted:after{content:"";position:absolute;top:50%;transform:translateY(-50%);right:20px;width:24px;height:24px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.293 5.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L13.586 12 8.293 6.707a1 1 0 010-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}::-ms-backdrop,header .header-container .header .block-menu.navigation .menu-item--has-children .highlighted:after{background-size:96% 96%}header .header-container .header .block-menu.navigation .menu-item.previous-level{position:relative;padding-left:50px;font-weight:600}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item.previous-level{display:none}}header .header-container .header .block-menu.navigation .menu-item.previous-level:before{content:"";position:absolute;top:50%;transform:translateY(-50%);left:20px;width:24px;height:24px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.707 5.293a1 1 0 00-1.414 0l-6 6a1 1 0 000 1.414l6 6a1 1 0 001.414-1.414L10.414 12l5.293-5.293a1 1 0 000-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}header .header-container .header .block-menu.navigation .menu-item .has-highlighted-child{background-color:#f8f8f8}header .header-container .header .block-menu.navigation .menu-item .highlighted{font-weight:600;transition:color .25s cubic-bezier(.39,.575,.565,1) 0s}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-item .highlighted{padding:15px 40px;display:flex;align-items:center;width:100%;margin:0 auto}header .header-container .header .block-menu.navigation .menu-item .highlighted:after{position:relative;transform:translateY(0);top:0;right:0;margin-left:15px;transition:transform .25s cubic-bezier(.39,.575,.565,1) 0s,background .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .block-menu.navigation .menu-item .highlighted:hover{color:#39f}header .header-container .header .block-menu.navigation .menu-item .highlighted:hover:after{transform:translateX(3px);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%2339f' fill='%2339f'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.293 5.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L13.586 12 8.293 6.707a1 1 0 010-1.414z'/%3E%3C/svg%3E")}}@media screen and (min-width:100em){header .header-container .header .block-menu.navigation .menu-item .highlighted{max-width:1480px;padding-left:0;padding-right:0}}@media screen and (max-width:74.9375em){header .header-container .header .block-menu.navigation .menu-level--1{position:absolute;left:0;top:0;width:100%;transform:translateX(100%)}header .header-container .header .block-menu.navigation .menu-level--1:not(.js-active){display:none}}@media screen and (max-width:74.9375em){header .header-container .header .block-menu.navigation .menu-level--2{position:absolute;left:0;top:0;width:100%;transform:translateX(100%)}header .header-container .header .block-menu.navigation .menu-level--2:not(.js-active){display:none}}@media screen and (max-width:74.9375em){header .header-container .header .block-menu.navigation .menu-level--3{position:absolute;left:0;top:0;width:100%;transform:translateX(100%)}header .header-container .header .block-menu.navigation .menu-level--3:not(.js-active){display:none}}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item{cursor:pointer}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>a,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>span{font-weight:600;font-size:16px;line-height:20px}@media screen and (max-width:74.9375em){header .header-container .header .block-menu.navigation .menu-level--0>.menu-item--has-children>a{pointer-events:none}}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>span{pointer-events:none}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--0,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item{display:flex;height:100%;align-items:center}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>span{cursor:default}}@media screen and (min-width:75em) and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>span{cursor:pointer}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>a,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item>span{padding-left:24px;padding-right:24px;position:relative;height:100%;display:flex;align-items:center;text-align:center}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover>a,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover>span{color:#39f}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1{pointer-events:auto;height:auto;opacity:1;width:100%;padding-bottom:40px}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu{display:flex;flex-wrap:wrap;justify-content:start;margin-left:auto;margin-right:auto;left:0;right:0;box-shadow:none;border-bottom:transparent}}@media screen and (min-width:75em) and (min-width:100em){header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu{max-width:1480px}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu:after,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu:before{content:"";position:absolute;left:0;width:200vw;margin-left:-50vw;cursor:pointer}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu:before{background:#f8f8f8;height:54px}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu:after{background:#fff;top:54px;height:calc(100% - 54px);z-index:-1;border-bottom:1px solid #dddfe8;box-shadow:0 11px 20px 0 rgba(0,0,0,.2)}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu>.menu-item,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu>.menu-item.has-highlighted-child{flex:1 0 auto;width:100%}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu>.menu-item .menu{max-width:1480px;margin:0 auto}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item:hover .menu-level--1.is-mega-menu>.menu-item:not(.has-highlighted-child){width:33%;max-width:493.33333px}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item.menu-item--active-trail>a,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item.menu-item--active-trail>span{position:relative;color:#39f}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item.menu-item--active-trail>a:after,header .header-container .header .block-menu.navigation .menu-level--0>.menu-item.menu-item--active-trail>span:after{content:"";position:absolute;display:block;left:0;top:50px;width:auto;height:3px;background:linear-gradient(85deg,#33f 2.47%,#39f 49.84%,#9fc 97.22%);transform:translateY(-100%)}header .header-container .header .block-menu.navigation .menu-level--0>.menu-item .menu-level--1{pointer-events:none;transform-origin:50% 0;opacity:0}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--1{height:0;cursor:inherit;position:absolute;top:100%;left:0;background-color:#fff;z-index:99;border-right:1px solid #dddfe8;border-bottom:1px solid #dddfe8;border-left:1px solid #dddfe8;box-shadow:0 11px 20px 0 rgba(0,0,0,.2)}}header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>span{position:relative;font-weight:600}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>span{font-size:15px;padding:15px 25px 15px 40px}}@media screen and (min-width:100em){header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>span{max-width:1480px;margin:0 auto;padding-left:0}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>a:not(.highlighted){transition:color .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .block-menu.navigation .menu-level--1>.menu-item>a:not(.highlighted):hover{color:#39f}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--2>.menu-item:first-child>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--2>.menu-item:first-child>span,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item:first-child>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--3>.menu-item:first-child>span{margin-top:-.5em}}header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>span,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>span{font-weight:400;font-size:14px}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>span,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>span{padding:.5em 30px .5em 40px;max-width:270px;position:relative;color:#000;font-size:14px}header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted):hover:after,header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>span:hover:after,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted):hover:after,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>span:hover:after{content:"";height:2px;width:calc(100% - 60px);position:absolute;bottom:.5rem;left:40px;border-bottom:2px solid transparent;-o-border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image-slice:1}}@media screen and (min-width:100em){header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>span,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>span{padding-left:0}header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted):hover:after,header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>span:hover:after,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted):hover:after,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>span:hover:after{left:0}}@media screen and (min-width:75em){header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted),header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted){transition:color .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .block-menu.navigation .menu-level--2>.menu-item>a:not(.highlighted):hover,header .header-container .header .block-menu.navigation .menu-level--3>.menu-item>a:not(.highlighted):hover{color:#39f}}header .header-container .header .burger-icon{width:26px;height:21px;position:relative;cursor:pointer;margin-left:30px;transform:translateY(-1px)}@media screen and (min-width:75em){header .header-container .header .burger-icon{display:none}}header .header-container .header .burger-icon span{display:block;position:absolute;height:3px;width:100%;background:#000;opacity:1;left:0;transform:rotate(0deg);transition:.25s ease-in-out}header .header-container .header .burger-icon span:first-child{top:0}header .header-container .header .burger-icon span:nth-child(2),header .header-container .header .burger-icon span:nth-child(3){top:9px}header .header-container .header .burger-icon span:nth-child(4){top:18px}body.js-menu-open header .header-container .header .burger-icon span:first-child,body.js-menu-open header .header-container .header .burger-icon span:nth-child(4){top:9px;width:0;left:50%}body.js-menu-open header .header-container .header .burger-icon span:nth-child(2){transform:rotate(45deg)}body.js-menu-open header .header-container .header .burger-icon span:nth-child(3){transform:rotate(-45deg)}header .header-container .header .faq-link{text-transform:uppercase;font-weight:100;font-size:11px;color:#33f;text-decoration:none;padding:23px 20px;display:block;letter-spacing:.5px}@media screen and (min-width:75em){header .header-container .header .faq-link{border:1px solid #33f;font-weight:700;border-radius:30px;padding:12px 20px;overflow:hidden;position:relative;transition:background-color .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .faq-link:hover{color:#fff;background:#33f}header .header-container .header .faq-link:hover span:before{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.8' height='21.8' stroke='%23fff' fill='none'%3E%3Cg stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M.9 5.6C.9 3.8 2.3.9 6.2.9s4.7 3.5 4.7 4.7-.4 2.6-2.5 4.7c-2.2 2.2-2.5 3.3-2.5 4.3v1.2'/%3E%3Ccircle cx='6.4' cy='19.4' r='1.5'/%3E%3C/g%3E%3C/svg%3E")}}header .header-container .header .faq-link span{position:relative;padding-left:20px;z-index:1}header .header-container .header .faq-link span:before{content:"";position:absolute;width:10px;height:20px;left:0;top:50%;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.8' height='21.8' stroke='%2333f' fill='none'%3E%3Cg stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M.9 5.6C.9 3.8 2.3.9 6.2.9s4.7 3.5 4.7 4.7-.4 2.6-2.5 4.7c-2.2 2.2-2.5 3.3-2.5 4.3v1.2'/%3E%3Ccircle cx='6.4' cy='19.4' r='1.5'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}::-ms-backdrop,header .header-container .header .faq-link span:before{background-size:90% 90%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--main-].navigation{height:100%;display:flex;align-items:center;flex:1 0 auto;padding-left:20px;position:static}}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--main-].navigation>.menu.menu-level--0>.menu-item>a,header .header-container .header nav[class*=menu--main-].navigation>.menu.menu-level--0>.menu-item>span{margin:30px 0}}header .header-container .header .open-search-modal{width:30px;height:30px;cursor:pointer;display:block;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.222 5a5.222 5.222 0 100 10.444 5.222 5.222 0 000-10.444zM3 10.222a7.222 7.222 0 1112.99 4.348l4.718 4.723a1 1 0 01-1.416 1.414l-4.715-4.722A7.222 7.222 0 013 10.223z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header .open-search-modal{margin-left:40px;transition:background-image .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .open-search-modal:hover{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill='%2339f'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.222 5a5.222 5.222 0 100 10.444 5.222 5.222 0 000-10.444zM3 10.222a7.222 7.222 0 1112.99 4.348l4.718 4.723a1 1 0 01-1.416 1.414l-4.715-4.722A7.222 7.222 0 013 10.223z'/%3E%3C/svg%3E")}}@media screen and (min-width:75em){header .header-container .header .open-search-modal.mobile{display:none}}@media screen and (max-width:74.9375em){header .header-container .header .open-search-modal.desktop{display:none}}header .header-container .header .header-search-form{background-color:#fff;position:fixed;top:0;left:0;bottom:0;right:0;display:flex;align-items:center;justify-content:center;transform:translateY(-100%);opacity:0;z-index:100;pointer-events:none;transition:transform .5s cubic-bezier(.39,.575,.565,1) 0s,opacity .5s cubic-bezier(.39,.575,.565,1) 0s}body.js-search-active header .header-container .header .header-search-form{transform:translateY(0);opacity:1;pointer-events:auto}header .header-container .header .header-search-form .close_btn{position:absolute;top:40px;right:40px;width:25px;height:25px;cursor:pointer;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.2' height='28.2' stroke='%23000'%3E%3Cpath d='M26.6 26.6l-25-25m25 0l-25 25' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%;transition:background-image .25s cubic-bezier(.39,.575,.565,1) 0s}header .header-container .header .header-search-form .close_btn:hover{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28.2' height='28.2' stroke='%2339f'%3E%3Cpath d='M26.6 26.6l-25-25m25 0l-25 25' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10'/%3E%3C/svg%3E")}header .header-container .header .header-search-form__wrapper{width:100%;margin-right:auto;margin-left:auto;padding:0 20px}@media screen and (min-width:47.9375em){header .header-container .header .header-search-form__wrapper{padding-right:60px;padding-left:60px}}@media screen and (min-width:100em){header .header-container .header .header-search-form__wrapper{padding-left:0;padding-right:0;max-width:1480px}}header .header-container .header .header-search-form .subtitle{font-weight:700;text-transform:uppercase;font-size:16px;letter-spacing:2px;color:#000;text-align:center}header .header-container .header .header-search-form .title{font-size:30px;color:#000;text-align:center;font-weight:500;margin-top:.15em}@media screen and (min-width:75em){header .header-container .header .header-search-form .title{font-size:45px}}header .header-container .header nav[class*=menu--user-menu].navigation{position:unset}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0{margin-left:30px;background-color:transparent}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0:after,header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0:before{content:"";width:186px;height:100%;position:absolute;right:0;top:0;z-index:-1}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0:before{background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='185' height='36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='.6' d='M0 33.407L17.068 0H185v36H1.377L0 33.407z' fill='url(%23paint0_linear_1306_957)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_1306_957' x1='.003' y1='18.386' x2='258.005' y2='-2.934' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2333F'/%3E%3Cstop offset='.642' stop-color='%2339F'/%3E%3Cstop offset='1' stop-color='%239FC'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");background-repeat:no-repeat;background-size:cover}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0:after{background:url("data:image/svg+xml;charset=utf-8,%3Csvg width='190' height='36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='.8' d='M0 2.593L16.718 36H190V0H1.35L0 2.593z' fill='url(%23paint0_linear_1306_956)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_1306_956' x1='6.285' y1='17.803' x2='232.598' y2='-9.692' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2333F'/%3E%3Cstop offset='.494' stop-color='%2339F'/%3E%3Cstop offset='1' stop-color='%239FC'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");background-repeat:no-repeat;background-size:cover}}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item{border:none;background:linear-gradient(85deg,#33f 2.47%,#39f 49.84%,#9fc 97.22%)}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item{padding:8px 6px 8px 20px;background:transparent}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item .menu-level--1{box-shadow:none}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item .menu-level--1:before{content:"";height:100%;width:200vw;position:absolute;top:0;left:-50vw;background-color:#fff;box-shadow:0 11px 20px 0 rgba(0,0,0,.2)}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item:hover{border-radius:25px 25px 0 0}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item:hover:before{height:100%;opacity:1}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item:hover .menu-level--1{display:flex;flex-direction:column;overflow:visible;width:100%}}header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item>span{text-transform:uppercase;font-weight:100;font-size:16px;color:#fff;letter-spacing:.5px;position:relative;padding-left:55px;font-weight:600;cursor:default}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item>span{font-weight:500;padding-left:30px;padding-right:30px}}
+
+/* ============================================================== */
+/* ЗАМОЧЕК (20x20 по вашему запросу) */
+/* ============================================================== */
+header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item>span:before {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 8px;
+    top: 52%;
+    transform: translateY(-50%);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 1290 1322'%3E%3Cpath fill-rule='evenodd' fill='%23FFFFFF' d='M603,375 L561,404 L531,441 L512,488 L508,538 L462,575 L437,619 L432,672 L433,785 L437,816 L448,841 L484,879 L507,891 L544,898 L799,899 L844,892 L864,883 L902,847 L920,801 L922,661 L919,630 L909,600 L893,576 L868,555 L817,537 L597,533 L592,528 L594,508 L606,480 L626,459 L650,447 L681,443 L714,451 L737,468 L769,512 L787,518 L820,510 L835,482 L830,456 L809,422 L781,394 L749,374 L722,364 L668,359 L632,364 Z M520,639 L532,628 L552,621 L565,619 L805,620 L823,627 L830,633 L835,642 L838,667 L837,784 L832,799 L825,807 L817,811 L798,815 L554,815 L531,809 L519,795 L516,775 L516,664 Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    pointer-events: none;
+}
+
+/* Продолжение старых стилей */
+header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item>span:after{content:"";position:absolute;width:24px;height:24px;right:0;left:auto;top:50%;transform:translate(30px,-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.293 5.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L13.586 12 8.293 6.707a1 1 0 010-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%;background-color:transparent}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation>.menu.menu-level--0>.menu-item>span:after{display:block;right:0;width:24px;height:24px;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill='%23fff' stroke='%23fff'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 16a1 1 0 00.707-.293l6-6a1 1 0 00-1.414-1.414L12 13.586 6.707 8.293a1 1 0 00-1.414 1.414l6 6A1 1 0 0012 16z'/%3E%3C/svg%3E")}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item a,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item span{color:#000}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .certificate:before{content:"";position:absolute;width:24px;height:24px;left:20px;top:50%;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000' fill='none'%3E%3Cpath d='M7 7h4m2 10h4M7 10h10M7 13h10M7 17l.857 1L10 16m-2.8 5h9.6c1.12 0 1.68 0 2.108-.218a2 2 0 00.874-.874C20 19.48 20 18.92 20 17.8V6.2c0-1.12 0-1.68-.218-2.108a2 2 0 00-.874-.874C18.48 3 17.92 3 16.8 3H7.2c-1.12 0-1.68 0-2.108.218a2 2 0 00-.874.874C4 4.52 4 5.08 4 6.2v11.6c0 1.12 0 1.68.218 2.108a2 2 0 00.874.874C5.52 21 6.08 21 7.2 21z' stroke='%23131A29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .certificate:before{transform:translateY(0);top:2px;left:0}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .password:before{content:"";position:absolute;width:24px;height:24px;left:20px;top:50%;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000' fill='none'%3E%3Cpath d='M15 9h.01M15 15a6 6 0 10-5.946-5.193c.058.434.087.651.068.789a.853.853 0 01-.117.346c-.068.121-.187.24-.426.479l-5.11 5.11c-.173.173-.26.26-.322.36a1 1 0 00-.12.29C3 17.296 3 17.418 3 17.663V19.4c0 .56 0 .84.109 1.054a1 1 0 00.437.437C3.76 21 4.04 21 4.6 21h1.737c.245 0 .367 0 .482-.028a.998.998 0 00.29-.12c.1-.061.187-.148.36-.32l5.11-5.111c.239-.239.358-.358.48-.426a.852.852 0 01.345-.117c.138-.02.355.01.789.068.264.036.533.054.807.054z' stroke='%23131A29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .password:before{transform:translateY(0);top:2px;left:0}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .account:before{content:"";position:absolute;width:24px;height:24px;left:20px;top:50%;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23000' fill='none'%3E%3Cpath d='M16.996 19.817a5 5 0 00-9.993 0M8.8 20h6.4c1.68 0 2.52 0 3.162-.327a3 3 0 001.311-1.311C20 17.72 20 16.88 20 15.2V8.8c0-1.68 0-2.52-.327-3.162a3 3 0 00-1.311-1.311C17.72 4 16.88 4 15.2 4H8.8c-1.68 0-2.52 0-3.162.327a3 3 0 00-1.311 1.311C4 6.28 4 7.12 4 8.8v6.4c0 1.68 0 2.52.327 3.162a3 3 0 001.311 1.311C6.28 20 7.12 20 8.8 20zM14 10a2 2 0 11-4 0 2 2 0 014 0z' stroke='%23131A29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .account:before{transform:translateY(0);top:2px;left:0}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .mobile:before{content:"";position:absolute;width:24px;height:24px;left:20px;top:50%;transform:translateY(-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg height='800' width='800' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27.442 27.442' stroke='%23000' fill='none'%3E%3Cpath d='M19.494 0H7.948a1.997 1.997 0 00-1.997 1.999v23.446c0 1.102.892 1.997 1.997 1.997h11.546a1.998 1.998 0 001.997-1.997V1.999A1.999 1.999 0 0019.494 0zm-8.622 1.214h5.7c.144 0 .261.215.261.481s-.117.482-.261.482h-5.7c-.145 0-.26-.216-.26-.482s.115-.481.26-.481zm2.85 24.255a1.275 1.275 0 110-2.55 1.275 1.275 0 010 2.55zm6.273-4.369H7.448V3.373h12.547V21.1z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .mobile:before{transform:translateY(0);top:2px;left:0}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item.previous-level{color:#fff;background:linear-gradient(85deg,#33f 2.47%,#39f 49.84%,#9fc 97.22%)}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item.previous-level:before{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23fff' fill='%23fff'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.707 5.293a1 1 0 00-1.414 0l-6 6a1 1 0 000 1.414l6 6a1 1 0 001.414-1.414L10.414 12l5.293-5.293a1 1 0 000-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1{margin:0;left:auto;right:0;border:none;padding:28px;transform-origin:100% 0}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item.--is-active:before{content:"";height:2px;width:100%;position:absolute;bottom:-2px;left:0;border-bottom:2px solid transparent;-o-border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image-slice:1}}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item{flex:0 1 auto;width:33.33333%;position:relative}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item:not(:last-of-type){margin-bottom:27px}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item>a,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item>span{color:#000;text-transform:none;padding-left:60px;font-size:18px;font-family:SourceSansPro;font-weight:600;line-height:28px;letter-spacing:1px}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item>a,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item>span{padding:0 0 0 40px}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--1>.menu-item>span{cursor:default}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu{padding-top:9px;padding-left:24px;border-left:1px solid #ccced0;position:absolute;right:0;top:0;transform:translateX(calc(100% + 25px));display:none}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu.--display{display:block}}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item:not(:last-of-type){margin-bottom:14px}}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item a,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item span{font-weight:400;font-size:16px;line-height:23px;letter-spacing:.5px;position:relative}@media screen and (min-width:75em){header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item a,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item span{padding:0}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item a:before,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item span:before{display:none}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item a:hover,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item span:hover{color:#39f}header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item a:hover:after,header .header-container .header nav[class*=menu--user-menu].navigation .menu .menu-item .menu-level--2.menu .menu-item span:hover:after{content:"";height:2px;width:100%;position:absolute;bottom:-2px;left:0;border-bottom:2px solid transparent;-o-border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image:linear-gradient(90deg,#33f,#39f,#9fc);border-image-slice:1}}header .header-container .header .language-switcher-language-url .contextual{display:none!important}header .header-container .header .language-switcher-language-url .links{display:flex;justify-content:center;align-items:center;position:fixed;bottom:0;width:100%;grid-gap:24px;gap:24px;box-shadow:0 3px 8px 0 rgba(51,51,255,.08),0 -3px 8px 0 rgba(51,51,255,.08);background-color:#fff}@media screen and (min-width:47.9375em){header .header-container .header .language-switcher-language-url .links{grid-gap:32px;gap:32px}}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links{position:relative;justify-content:end;box-shadow:none}}header .header-container .header .language-switcher-language-url .links .all_languages a,header .header-container .header .language-switcher-language-url .links .current_lang a,header .header-container .header .language-switcher-language-url .links .all_languages span,header .header-container .header .language-switcher-language-url .links .current_lang span{padding:0 20px;text-decoration:none;color:#000;text-transform:uppercase;font-weight:700;font-size:14px;width:40px;height:40px;display:flex;justify-content:center;align-items:center;border-radius:50%}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .all_languages a,header .header-container .header .language-switcher-language-url .links .all_languages span,header .header-container .header .language-switcher-language-url .links .current_lang a,header .header-container .header .language-switcher-language-url .links .current_lang span{width:auto;height:auto;display:inline;border-radius:0}}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .current_lang{position:relative;cursor:pointer;padding-bottom:8px;padding-top:8px}header .header-container .header .language-switcher-language-url .links .current_lang:before{content:"";position:absolute;top:50%;transform:translateY(-50%);right:-2px;width:20px;height:20px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 16a1 1 0 00.707-.293l6-6a1 1 0 00-1.414-1.414L12 13.586 6.707 8.293a1 1 0 00-1.414 1.414l6 6A1 1 0 0012 16z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:contain;background-position:50%}}header .header-container .header .language-switcher-language-url .links .current_lang a,header .header-container .header .language-switcher-language-url .links .current_lang span{color:#000;border:1px solid #33f}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .current_lang a,header .header-container .header .language-switcher-language-url .links .current_lang span{border:none}}header .header-container .header .language-switcher-language-url .links .current_lang:hover a,header .header-container .header .language-switcher-language-url .links .current_lang:hover span{color:#39f}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .all_languages{position:absolute;left:0;top:100%;max-height:100px;overflow:hidden;z-index:99;transition:max-height .25s cubic-bezier(.39,.575,.565,1)}header .header-container .header .language-switcher-language-url .links .all_languages:not([aria-expanded=true]){max-height:0}}header .header-container .header .language-switcher-language-url .links .all_languages--wrapper{list-style:none;display:flex;margin:0;grid-gap:24px;gap:24px;padding:16px 0}header .header-container .header .language-switcher-language-url .links .all_languages--wrapper li{margin:0}@media screen and (min-width:47.9375em){header .header-container .header .language-switcher-language-url .links .all_languages--wrapper{grid-gap:32px;gap:32px}}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .all_languages--wrapper{border:1px solid #dddfe8;background-color:#fff;display:block;padding:0}header .header-container .header .language-switcher-language-url .links .all_languages--wrapper li{display:inline-flex}}header .header-container .header .language-switcher-language-url .links .all_languages a{border:1px solid #000}@media screen and (min-width:75em){header .header-container .header .language-switcher-language-url .links .all_languages a{border:none;padding-top:5px;padding-bottom:5px}header .header-container .header .language-switcher-language-url .links .all_languages a:hover{background-color:#f8f8f8;color:#39f}}
+
+        /* ============================================================== */
+        /* СТИЛИ ТУЛТИПОВ — НАСТРАИВАЕМЫЕ ИНДИВИДУАЛЬНО */
+        /* ============================================================== */
+
+        /* Общие стили для всех тултипов (базовые) */
+        .tooltip {
+            display: none;
+            position: absolute;
+            bottom: calc(100% + 8px);  /* расстояние от поля ввода (можно менять) */
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+            padding: 14px 18px;
+            z-index: 1000;
+            box-sizing: border-box;
+            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            color: #1a1a1a;
+            line-height: 1.55;
+            text-align: left;
+            white-space: normal;
+            word-wrap: break-word;
+            pointer-events: none;
+        }
+
+        .tooltip.active {
+            display: block;
+            pointer-events: auto;
+        }
+
+        .tooltip a {
+            color: #0066cc;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .tooltip a:hover {
+            text-decoration: underline;
+        }
+
+        /* ============================================================== */
+        /* НАСТРОЙКИ ДЛЯ ТУЛТИПА USER ID (редактируйте здесь) */
+        /* ============================================================== */
+        #tooltip-userid {
+            width: 270px;
+            height: auto;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 14px 18px;
+            border-radius: 8px;
+        }
+
+        /* ============================================================== */
+        /* НАСТРОЙКИ ДЛЯ ТУЛТИПА PASSWORD (редактируйте здесь) */
+        /* ============================================================== */
+        #tooltip-password {
+            width: 300px;
+            height: auto;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 14px 18px;
+            border-radius: 8px;
+        }
+
+        /* ============================================================== */
+        /* МОБИЛЬНЫЕ СТИЛИ (max-width: 992px) */
+        /* ============================================================== */
+        @media (max-width: 992px) {
+            .tooltip {
+                padding: 12px 16px;
+                font-size: 13px;
+                line-height: 1.5;
+                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+            }
+            #tooltip-userid {
+                width: 260px;
+            }
+            #tooltip-password {
+                width: 280px;
+            }
+        }
+
+        /* ============================================================== */
+        /* МАЛЕНЬКИЕ ЭКРАНЫ (max-width: 550px) */
+        /* ============================================================== */
+        @media (max-width: 550px) {
+            .tooltip {
+                padding: 10px 14px;
+                font-size: 12px;
+                line-height: 1.5;
+                border-radius: 6px;
+                box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+            }
+            #tooltip-userid {
+                width: 240px;
+            }
+            #tooltip-password {
+                width: 260px;
+            }
+        }
+
+        /* ==============================================================
+           ДОПОЛНИТЕЛЬНЫЕ СТИЛИ (ОСНОВНОЙ КОНТЕНТ)
+           ============================================================== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body.luxtrust, .luxtrust { font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important; font-size: 14px; line-height: 1.428571429; color: #000; background-color: #fff; }
+        .main-lx-container { max-width: 1480px; width: 100%; margin: 0 auto; padding: 30px 15px 0 15px; box-sizing: border-box; position: relative; }
+        .row-lx { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 200px; }
+        .col-left { flex: 0 0 500px; width: 500px; display: flex; flex-direction: column; align-items: center; }
+        .col-right { flex: 0 0 150px; width: 150px; margin-top: 55px; margin-left: 0; display: flex; flex-direction: column; align-items: flex-start; }
+        .device-selection-state { margin-top: 26px; width: 100%; }
+        .right-brand { text-align: left; width: 100%; }
+        .right-logo-svg { display: block; width: 136.7px; height: auto; margin-bottom: 0; margin-top: 13px; }
+        .right-logo-svg img, .right-logo-svg object { width: 100%; height: auto; display: block; }
+        .right-subtitle { font-family: 'Source Sans Pro', sans-serif; font-size: 12px; font-weight: 300; color: #000; margin-top: 2px; letter-spacing: 0.3px; }
+        .device-card { display: none; width: 145px; height: 150px; background: #fff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 0 10px rgba(51,51,255,0.08); overflow: hidden; margin-top: 16px; flex-shrink: 0; }
+        .device-card.visible { display: flex !important; flex-direction: column; }
+        .device-card .phone-icon { height: 110px; background: #fff; display: flex; align-items: center; justify-content: center; margin: 0; padding: 0; flex-shrink: 0; }
+        .device-card .phone-icon img { width: 95px; height: auto; display: block; max-height: 100%; margin-top: -4px; }
+        .device-card .card-label { height: 40px; display: flex; align-items: center; justify-content: center; background: #fff; color: #000; font-size: 13px; font-weight: 400; text-align: center; padding: 0; white-space: nowrap; line-height: normal; }
+        .alert.call-to-action { position: absolute; left: 50%; transform: translate(-50%,10px); top: 120px; width: auto; max-width: none; margin: 0; padding: 5px; font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important; font-size: 13px; font-weight: 700; line-height: 1.428571429; text-transform: uppercase; color: #000; letter-spacing: 0; text-align: center; box-shadow: none; white-space: nowrap; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        .devices-flex { display: flex; gap: 23px; flex-wrap: wrap; justify-content: center; transform: translate(-5px,-5px); }
+        .thumbnail-lx { display: block; width: 146px; height: 149px; background: #fff; border: 1px solid #ccc; border-radius: 6px; overflow: hidden; text-align: center; cursor: pointer; transition: box-shadow .2s ease; box-shadow: 0 0 10px rgba(0,0,0,0.05); text-decoration: none; color: #000; margin: 0; z-index: 10; position: relative; }
+        .thumbnail-lx:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+        .device-img { display: flex; align-items: center; justify-content: center; width: 100%; height: 108px; margin: 14px 0 0; }
+        .device-img img { max-width: 120px; max-height: 115px; width: auto; height: auto; object-fit: contain; }
+        .device-img.scan-img img { max-width: 115px; max-height: 110px; }
+        .device-img.mobile-img img { max-width: 110px; max-height: 110px; }
+        .device-name-lx { display: block; width: 100%; margin-top: 8px; font-size: 14px; font-weight: 400; text-align: center; color: #000; line-height: 1.3; }
+        body.login-active { background: #fafafa !important; }
+        body.login-active .main-lx-container { background: #fafafa; }
+        .login-state { display: none !important; }
+        .login-state.visible { display: block !important; margin-top: 174px; width: 100%; }
+        .login-form { max-width: 420px; width: 100%; transform: scale(0.94) translateX(37px) translateY(-24px); transform-origin: top left; margin-top: 6px; }
+        .login-form .form-row { display: flex; align-items: center; margin-bottom: 20px; margin-top: 10px; position: relative; }
+        .login-form .form-row:first-of-type { margin-top: 18px; }
+        .login-form .form-row:last-of-type { margin-top: 13px; }
+
+        .login-form .form-row:first-of-type label {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+            font-weight: 600 !important;
+            letter-spacing: 0.2px !important;
+            position: relative !important;
+            top: 0px !important;
+        }
+        .login-form .form-row:last-of-type label {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+            font-weight: 600 !important;
+            letter-spacing: 0.2px !important;
+            position: relative !important;
+            top: 0px !important;
+        }
+        .login-form .form-row label[for="userid"] { transform: translateX(4px); }
+        .login-form .form-row label[for="password"] { transform: translateX(4px); }
+        .login-form .form-row .input-wrap { width: 248px; margin-right: 0; margin-left: 7px; flex-shrink: 0; position: relative; }
+        .login-form .form-row .input-wrap input { width: 100%; height: 36px; border: 1px solid #d8d8d8; border-radius: 4px; padding: 0 14px; font-size: 14px; color: #333; outline: none; box-sizing: border-box; background: #fff; line-height: normal; display: flex; align-items: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .login-form .form-row .input-wrap input::placeholder { color: #aaaaaa; font-weight: 400; }
+        
+        .login-form .form-row .help-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            cursor: pointer;
+            margin-left: 14px;
+            position: relative;
+            transform: translateX(0);
+            width: 14px;
+            height: 14px;
+            padding: 0;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background: transparent;
+        }
+        .login-form .form-row .help-icon svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .login-form .button-row { display: flex; gap: 10px; margin-top: 16px; justify-content: center; transform: translateX(1px); }
+        .login-form .button-row .btn { width: 118px; height: 34px; background: #fff; border: 1px solid #000; border-radius: 4px; font-size: 14px; color: #000; cursor: pointer; display: flex; align-items: center; justify-content: center; font-family: inherit; padding: 0; transition: background .15s, border-color .15s; }
+        .login-form .button-row .btn:hover { background: #f9f9f9; border-color: #999; }
+
+        /* --------- ДОБАВЛЕННЫЙ СТИЛЬ ДЛЯ ОШИБКИ --------- */
+        .input-wrap.error input {
+            border-color: #ff0000 !important;
+        }
+        /* --------------------------------------------- */
+
+        .menu--main-en .menu-item a { font-weight: 400 !important; }
+        .language-switcher-language-url { position: relative; display: inline-block; cursor: pointer; }
+        .language-switcher-language-url .current_lang { display: flex; align-items: center; padding: 8px 0; font-family: "Source Sans Pro",sans-serif; font-size: 14px; font-weight: 400; text-transform: uppercase; color: #000; background: transparent; border: none; user-select: none; }
+        .language-switcher-language-url .current_lang .is-active { font-family: "Source Sans Pro",sans-serif; font-size: 14px; font-weight: 400; color: #000; line-height: 1; }
+        .language-switcher-language-url .current_lang::after { content: ''; display: inline-block; width: 16px; height: 16px; margin-left: 4px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); background-size: contain; background-repeat: no-repeat; background-position: center; flex-shrink: 0; }
+        .language-switcher-language-url .all_languages { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #e0e0e0; border-top: 2px solid #3399FF; min-width: 60px; z-index: 9999; padding: 0; white-space: nowrap; }
+        .language-switcher-language-url .all_languages.open { display: block; }
+        .language-switcher-language-url .all_languages ul { list-style: none; margin: 0; padding: 0; }
+        .language-switcher-language-url .all_languages li { padding: 0; margin: 0; }
+        .language-switcher-language-url .all_languages li a { display: block; padding: 5px 20px; font-family: "Source Sans Pro",sans-serif; font-size: 14px; font-weight: 400; text-transform: uppercase; color: #000; text-decoration: none; background: transparent; line-height: 1.4; }
+        .language-switcher-language-url .all_languages li a:hover { background: #f5f5f5; }
+        .header-wrapper { position: relative; }
+        .menu--main-en .menu-level--0 { display: flex; margin: 0; padding: 0; list-style: none; }
+        .menu--main-en .menu-item { list-style: none; border-bottom: none; font-size: 18px; font-weight: 400; position: static; }
+        .menu--main-en .menu-item > a, .menu--main-en .menu-item > span { padding: 23px 20px; display: block; text-decoration: none; color: #000; cursor: pointer; font-size: 18px; font-weight: 400; line-height: 1.4; }
+        .menu--main-en .menu-item:hover > a, .menu--main-en .menu-item:hover > span { color: #3399FF; }
+        .menu--main-en .menu-item .mega-menu { max-height: 0; cursor: inherit; position: absolute; top: 100%; left: 0; right: 0; background-color: #fff; z-index: 99; border-right: 1px solid #dddfe8; border-bottom: 1px solid #dddfe8; border-left: 1px solid #dddfe8; box-shadow: 0 11px 20px 0 rgba(0,0,0,.2); pointer-events: none; transform-origin: 50% 0; opacity: 0; overflow: hidden; white-space: normal; text-align: left; transition: max-height 0.4s ease, opacity 0.2s ease; }
+        .menu--main-en .menu-item:hover .mega-menu { pointer-events: auto; max-height: 5000px; opacity: 1; padding-bottom: 40px; display: block; overflow: visible; }
+        .menu--main-en .mega-menu .mega-header { background: #f5f5f5; border-bottom: 1px solid #e0e0e0; }
+        .menu--main-en .mega-menu .mega-header a { font-size: 18px; font-weight: 400; color: #000; text-decoration: none; display: flex; align-items: center; justify-content: space-between; padding: 15px 40px; line-height: 1.4; transition: color .25s cubic-bezier(.39,.575,.565,1) 0s; }
+        .menu--main-en .mega-menu .mega-header a::after { content: '>'; display: inline-block; font-size: 24px; font-weight: 300; color: #000; margin-left: 15px; flex-shrink: 0; line-height: 1; }
+        .menu--main-en .mega-menu .mega-header a:hover { color: #0066cc; }
+        .menu--main-en .mega-menu .mega-body { display: flex; padding: 10px 0 0; gap: 0; }
+        .menu--main-en .mega-menu .mega-body.single-col { display: block; padding: 10px 0 0; }
+        .menu--main-en .mega-menu .col { flex: 1; min-width: 0; padding: 0; }
+        .menu--main-en .mega-menu .col h4 { font-size: 15px; font-weight: 700; margin: 0; padding: 15px 40px 10px; color: #000; line-height: 1.4; }
+        .menu--main-en .mega-menu .col ul { list-style: none; padding: 0; margin: 0; }
+        .menu--main-en .mega-menu .col ul li { margin-bottom: 0; }
+        .menu--main-en .mega-menu .col ul li a { font-size: 14px; font-weight: 400; color: #000; text-decoration: none; transition: color .25s cubic-bezier(.39,.575,.565,1) 0s; display: block; padding: 8px 40px; line-height: 1.5; white-space: nowrap; }
+        .menu--main-en .mega-menu .col ul li a:hover { color: #0066cc; }
+        .menu--main-en .menu-item.help-item .mega-menu { display: none !important; }
+
+        @media (max-width: 992px) {
+            .menu--main-en .menu-level--0 { flex-direction: column; }
+            .menu--main-en .menu-item .mega-menu { position: static; transform: none; min-width: auto; max-width: 100%; box-shadow: none; border: none; border-top: 1px solid #eee; border-radius: 0; padding: 15px 0; flex-direction: column; display: none; opacity: 1; width: 100%; }
+            .menu--main-en .menu-item:hover .mega-menu { display: none; }
+            .menu--main-en .menu-item.active .mega-menu { display: block !important; flex-direction: column; opacity: 1; pointer-events: auto; height: auto; }
+            .menu--main-en .mega-menu .mega-body { flex-direction: column; padding: 15px 0; }
+            .menu--main-en .mega-menu .col { padding: 5px 15px; flex: none; }
+
+            .menu--user-menu-en .menu-item.active .menu-level--1 {
+                display: block !important;
+                flex-direction: column;
+                opacity: 1;
+                pointer-events: auto;
+                height: auto;
+            }
+        }
+
+        .menu--main-en .menu-item a { font-weight: 520 !important; }
+        .language-switcher-language-url .is-active { font-weight: 700 !important; }
+        .menu--user-menu-en .menu-item span { font-weight: 400 !important; }
+        .header-top .links span { font-weight: 400 !important; }
+
+        .mobile-lang-switcher .lang-btn,
+        .language-switcher-language-url .links .all_languages a,
+        .language-switcher-language-url .links .current_lang a {
+            transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        .mobile-lang-switcher .lang-btn:hover,
+        .language-switcher-language-url .links .all_languages a:hover,
+        .language-switcher-language-url .links .current_lang a:hover {
+            border-color: #3399ff;
+            color: #3399ff;
+        }
+
+        .mobile-lang-switcher {
+            border: none !important;
+            box-shadow: none !important;
+        }
+
+        @media (max-width: 992px) {
+            header .header-container {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+                height: 88px;
+                display: flex;
+                align-items: center;
+            }
+            header .header-container .header {
+                width: 100%;
+                height: 100%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            header .header-container .header-bottom {
+                height: 100%;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 16px 0 0px !important;
+                width: 100%;
+            }
+            #block-luxtrust-branding {
+                flex: 0 0 auto;
+                margin-top: 4px;
+            }
+            #block-luxtrust-branding .site-logo svg {
+                max-width: 137px !important;
+                height: auto;
+                display: block;
+            }
+
+            .burger-icon {
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: space-between !important;
+                width: 26px !important;
+                height: 20.75px !important;
+                cursor: pointer;
+                margin: 7px 0 0 14px !important;
+                padding: 0 !important;
+                background: transparent !important;
+                border: none !important;
+                transform: translateX(16px) !important;
+            }
+            .burger-icon span {
+                display: block !important;
+                width: 26px !important;
+                height: 2.8px !important;
+                background: #000 !important;
+                border-radius: 2px !important;
+                transition: all 0.25s ease !important;
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                top: auto !important;
+                left: auto !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                flex: 0 0 auto !important;
+            }
+            body.js-menu-open .burger-icon span:nth-child(1) {
+                transform: translateY(9px) rotate(45deg) !important;
+            }
+            body.js-menu-open .burger-icon span:nth-child(2) {
+                opacity: 0 !important;
+            }
+            body.js-menu-open .burger-icon span:nth-child(3) {
+                transform: translateY(-9px) rotate(-45deg) !important;
+            }
+
+            .header-top { display: none !important; }
+            .header-logo-mobile-bg { display: none !important; }
+            .menu-wrapper { top: 88px; padding-top: 0; }
+            .menu-wrapper__container { top: 0; }
+
+            .main-lx-container {
+                padding-top: 8px;
+                padding-bottom: 40px !important;
+            }
+            .device-selection-state { margin-top: 18px !important; }
+
+            .alert.call-to-action {
+                position: static;
+                transform: none;
+                margin: 0px auto 16px !important;
+                font-size: 16px;
+                font-weight: 600 !important;
+                letter-spacing: 1.5px;
+                white-space: normal;
+            }
+
+            .row-lx {
+                flex-direction: column;
+                gap: 0;
+                align-items: center;
+                width: 100%;
+            }
+            .col-left,
+            .col-right {
+                flex: 0 0 auto;
+                width: 100%;
+                margin: 0;
+                align-items: center;
+                text-align: center;
+            }
+            .col-right {
+                order: -1;
+                margin-top: 0;
+                align-items: flex-end;
+                padding-right: 0;
+            }
+            .right-brand {
+                text-align: right;
+                width: 100%;
+            }
+            .right-logo-svg {
+                margin: 0 0 2px auto;
+                width: 153px;
+                max-width: 100%;
+                margin-top: 54px;
+                transform: none;
+            }
+            .right-logo-svg img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            .right-subtitle {
+                display: none !important;
+            }
+
+            .devices-flex {
+                display: flex !important;
+                flex-direction: row !important;
+                flex-wrap: nowrap !important;
+                gap: 30px !important;
+                justify-content: center !important;
+                align-items: center !important;
+                margin-top: 2px !important;
+                transform: none !important;
+                overflow-x: auto !important;
+                padding: 4px 0 !important;
+                -webkit-overflow-scrolling: touch !important;
+                width: 100% !important;
+            }
+            .thumbnail-lx {
+                flex: 0 0 auto !important;
+                width: 222px !important;
+                height: 173px !important;
+                border-radius: 6px !important;
+                border: 1px solid #d5d5d5 !important;
+                box-shadow: 0 0 10px rgba(0,0,0,0.04) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+            .device-img {
+                height: 100px !important;
+                margin-top: 6px !important;
+                padding: 0 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                flex-shrink: 0 !important;
+                width: 100% !important;
+            }
+            .device-img img {
+                max-width: 120px !important;
+                max-height: 100px !important;
+                object-fit: contain !important;
+            }
+            .device-img.scan-img img {
+                max-width: 115px !important;
+                max-height: 95px !important;
+            }
+            .device-img.mobile-img img {
+                max-width: 110px !important;
+                max-height: 95px !important;
+            }
+            .device-name-lx {
+                font-size: 15px !important;
+                margin-top: 17px !important;
+                padding-bottom: 4px !important;
+                line-height: 1.2 !important;
+                text-align: center !important;
+                flex-shrink: 0 !important;
+                width: 100% !important;
+            }
+
+            .login-form {
+                transform: translateX(2px) translateY(-24px);
+                max-width: 400px !important;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+            .login-state.visible { margin-top: 20px !important; }
+            .login-form .form-row {
+                display: flex;
+                flex-direction: row !important;
+                align-items: center;
+                margin-bottom: 16px;
+                margin-top: 10px;
+                justify-content: flex-start;
+            }
+            .login-form .form-row:first-of-type { margin-top: 18px !important; }
+            .login-form .form-row:last-of-type { margin-top: 14px !important; }
+            .login-form .form-row:first-of-type label {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                font-weight: 600 !important;
+                letter-spacing: 0.2px !important;
+                position: relative !important;
+                top: 0px !important;
+            }
+            .login-form .form-row:last-of-type label {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+                font-weight: 600 !important;
+                letter-spacing: 0.2px !important;
+                position: relative !important;
+                top: 0px !important;
+            }
+            .login-form .form-row label {
+                width: 60px !important;
+                text-align: right;
+                margin-right: 30px !important;
+                font-size: 13px;
+                font-weight: 400;
+                flex-shrink: 0;
+            }
+            .login-form .form-row label[for="userid"] { transform: translateX(4px); }
+            .login-form .form-row label[for="password"] { transform: translateX(4px); }
+            .login-form .form-row .input-wrap {
+                width: 248px !important;
+                max-width: 248px !important;
+                margin-left: 7px !important;
+                flex: 0 0 auto;
+            }
+            .login-form .form-row .input-wrap input {
+                height: 36px !important;
+                font-size: 13px;
+                width: 100%;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            }
+            .login-form .form-row .input-wrap input::placeholder { color: #aaaaaa; }
+            .login-form .form-row .help-icon {
+                margin-left: 28px;
+                margin-top: 0;
+                flex-shrink: 0;
+                transform: translateX(0);
+            }
+            .login-form .button-row {
+                margin-left: 0;
+                justify-content: center !important;
+                margin-top: 16px !important;
+                gap: 10px;
+                transform: translateX(1px);
+            }
+            .login-form .button-row .btn {
+                width: 138px !important;
+                height: 33px !important;
+                font-size: 14px;
+                border-color: #000 !important;
+                border-width: 1px !important;
+            }
+
+            .mobile-lang-switcher {
+                display: none !important;
+                flex-direction: row !important;
+                flex-wrap: nowrap !important;
+                justify-content: center !important;
+                align-items: center !important;
+                position: fixed !important;
+                bottom: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                padding: 16px 20px calc(16px + env(safe-area-inset-bottom)) !important;
+                background: #fff !important;
+                border: none !important;
+                margin-top: 0 !important;
+                gap: 24px !important;
+                min-height: auto !important;
+                box-sizing: border-box !important;
+                z-index: 1000 !important;
+                box-shadow: 0 -12px 30px rgba(225,230,255,0.45), 0 2px 10px rgba(225,230,255,0.1) !important;
+            }
+            body.js-menu-open .mobile-lang-switcher {
+                display: flex !important;
+            }
+            .mobile-lang-switcher .lang-btn {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 52px !important;
+                height: 52px !important;
+                border-radius: 50% !important;
+                border: 1px solid #000 !important;
+                font-size: 18px !important;
+                font-weight: 600 !important;
+                color: #000 !important;
+                text-decoration: none !important;
+                transition: border-color 0.2s ease !important;
+                box-sizing: border-box !important;
+                background: transparent !important;
+                flex-shrink: 0 !important;
+                cursor: pointer !important;
+            }
+            .mobile-lang-switcher .lang-btn.is-active {
+                border-color: #2b4eff !important;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .devices-flex {
+                gap: 30px !important;
+                margin-top: 2px !important;
+                padding: 4px 4px !important;
+            }
+            .thumbnail-lx {
+                width: 184px !important;
+                height: 150px !important;
+            }
+            .device-img {
+                height: 84px !important;
+                margin-top: 4px !important;
+            }
+            .device-img img {
+                max-width: 100px !important;
+                max-height: 80px !important;
+            }
+            .device-img.scan-img img {
+                max-width: 95px !important;
+                max-height: 76px !important;
+            }
+            .device-img.mobile-img img {
+                max-width: 90px !important;
+                max-height: 76px !important;
+            }
+            .device-name-lx {
+                font-size: 14px !important;
+                margin-top: 30px !important;
+                padding-bottom: 2px !important;
+            }
+            .login-form {
+                max-width: 320px !important;
+                padding: 0 15px;
+                transform: translateX(2px) translateY(-24px);
+            }
+            .login-form .form-row {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: 10px;
+                position: relative !important;
+                top: 18px !important;
+                transform: translateX(3px) !important;
+            }
+            .login-form .form-row:first-of-type { margin-top: 18px !important; }
+            .login-form .form-row:last-of-type { margin-top: 13px !important; }
+
+            .login-form .form-row .input-wrap {
+                width: 184px !important;
+                max-width: 184px !important;
+                margin-left: -5px !important;
+            }
+            .login-form .form-row .input-wrap input {
+                height: 34px !important;
+                font-size: 12px;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            }
+            .login-form .form-row .input-wrap input::placeholder { color: #aaaaaa; }
+            .login-form .form-row .help-icon { transform: translateX(0); }
+            .login-form .button-row {
+                margin-top: 16px !important;
+                transform: translateX(1px);
+                position: relative !important;
+                top: 16px !important;
+                left: 6px !important;
+            }
+            .login-form .button-row .btn {
+                width: 119.5px !important;
+                height: 34px !important;
+                font-size: 13px;
+                border-color: #000 !important;
+                border-width: 1px !important;
+            }
+            .device-card {
+                width: 165px !important;
+                height: 130px !important;
+            }
+            header .header-container {
+                height: 80px;
+            }
+            #block-luxtrust-branding .site-logo svg {
+                max-width: 148px !important;
+            }
+            .right-logo-svg {
+                width: 138px !important;
+                margin-top: 64px !important;
+            }
+            .right-subtitle {
+                margin-top: -5px !important;
+            }
+
+            .mobile-lang-switcher {
+                padding: 19px 16px calc(16px + env(safe-area-inset-bottom)) !important;
+                gap: 24.25px !important;
+            }
+            .mobile-lang-switcher .lang-btn {
+                width: 42px !important;
+                height: 40px !important;
+                font-size: 15px !important;
+                border-width: 1px !important;
+            }
+            
+            .alert.call-to-action {
+                font-size: 14.5px;
+                letter-spacing: 0px;
+                margin: -5px auto 12px !important;
+                transform: translateY(-6px) !important;
+                font-weight: 600 !important;
+            }
+            
+            .login-form .form-row {
+                position: relative !important;
+                top: 18px !important;
+                transform: translateX(3px) !important;
+            }
+
+            .login-form .button-row {
+                position: relative !important;
+                top: 16px !important;
+                left: 6px !important;
+            }
+        }
+
+        @media screen and (min-width: 75em) {
+            .menu--main-en .menu-item .mega-menu {
+                box-shadow: 0 11px 20px 0 rgba(0,0,0,.2) !important;
+                border-radius: 0 0 8px 8px !important;
+                background: #fff !important;
+                width: 100% !important;
+                left: 0 !important;
+                right: 0 !important;
+                transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.4s ease !important;
+                transform: translateY(-10px) !important;
+                opacity: 0 !important;
+                max-height: 0 !important;
+                overflow: hidden !important;
+                pointer-events: none !important;
+                border-right: 1px solid #dddfe8 !important;
+                border-bottom: 1px solid #dddfe8 !important;
+                border-left: 1px solid #dddfe8 !important;
+            }
+            .menu--main-en .menu-item:hover .mega-menu {
+                transform: translateY(0) !important;
+                opacity: 1 !important;
+                max-height: 5000px !important;
+                overflow: visible !important;
+                pointer-events: auto !important;
+                padding-bottom: 40px !important;
+                display: block !important;
+            }
+            .mega-menu .mega-header { background: #f5f5f5 !important; border-bottom: 1px solid #e0e0e0 !important; }
+            .mega-menu .mega-header a { font-size: 17px !important; font-weight: 400 !important; padding: 15px 40px !important; line-height: 1.4 !important; }
+            .mega-menu .mega-body { display: flex !important; gap: 30px 60px !important; padding: 20px 40px 0 !important; flex-wrap: nowrap !important; }
+            .mega-body .col { flex: 1 1 0 !important; min-width: 180px !important; max-width: none !important; padding: 0 !important; }
+            .mega-body .col h4 { font-size: 16px !important; font-weight: 700 !important; padding: 0 0 10px 0 !important; margin: 0 !important; line-height: 1.3 !important; }
+            .mega-body .col ul li a { font-size: 14px !important; font-weight: 400 !important; padding: 5px 0 !important; white-space: normal !important; word-wrap: break-word !important; line-height: 1.4 !important; display: block !important; }
+            .mega-body.single-col .col { flex: 0 0 100% !important; max-width: 100% !important; min-width: auto !important; }
+            .mega-body.single-col .col ul li a { font-size: 15px !important; padding: 6px 0 !important; white-space: normal !important; }
+        }
+
+        .mega-menu .col ul li.solutions-item a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+        }
+        .mega-menu .col ul li.solutions-item a::after {
+            content: '>';
+            font-size: 24px;
+            font-weight: 300;
+            color: #000;
+            margin-left: 15px;
+            flex-shrink: 0;
+            line-height: 1;
+        }
+
+        .is-hidden {
+            display: none !important;
+        }
+
+        @media (max-width: 550px) {
+            body .lx-label-userid {
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                left: -10.25px !important;
+                margin-right: 27px !important;
+                width: 50px !important;
+                text-align: right !important;
+                position: relative !important;
+                top: 0px !important;
+            }
+
+            body .lx-label-password {
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                left: -10.25px !important;
+                margin-right: 27px !important;
+                width: 50px !important;
+                text-align: right !important;
+                position: relative !important;
+                top: 0px !important;
+            }
+            
+            body .login-form .form-row label[for="userid"] {
+                transform: translateX(4px) !important;
+            }
+            body .login-form .form-row label[for="password"] {
+                transform: translateX(4px) !important;
+            }
+        }
+
+        .login-form .form-row .input-wrap input:focus {
+            border-color: #3399ff !important;
+            outline: none !important;
+        }
+
+        /* Стили для белой стрелки и белого текста кнопки "назад" в пользовательском меню */
+        nav.menu--user-menu-en .menu-item.previous-level {
+            color: #fff !important;
+            background: linear-gradient(85deg, #33f 2.47%, #39f 49.84%, #9fc 97.22%);
+        }
+        nav.menu--user-menu-en .menu-item.previous-level:before {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg' stroke='%23fff' fill='%23fff'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.707 5.293a1 1 0 00-1.414 0l-6 6a1 1 0 000 1.414l6 6a1 1 0 001.414-1.414L10.414 12l5.293-5.293a1 1 0 000-1.414z'/%3E%3C/svg%3E") !important;
+        }
+
+        /* Исправление шрифта для раздела My LuxTrust */
+        .menu--user-menu-en,
+        .menu--user-menu-en .menu-item,
+        .menu--user-menu-en .menu-item span,
+        .menu--user-menu-en .menu-item a {
+            font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        }
+
+        /* Более насыщенный шрифт для пунктов My LuxTrust */
+        .menu--user-menu-en .menu-item .certificate,
+        .menu--user-menu-en .menu-item .password,
+        .menu--user-menu-en .menu-item .account,
+        .menu--user-menu-en .menu-item .mobile {
+            font-weight: 550 !important;
+        }
+
+        /* ============================================================== */
+        /* НАСТРОЙКИ ТЕКСТА "MY LUXTRUST" (Жирность, расположение, расстояние между букв, РАЗМЕР) */
+        /* ============================================================== */
+        @media (max-width: 992px) {
+    header .header-container .header nav[class*=menu--user-menu].navigation > .menu.menu-level--0 > .menu-item > span {
+        /* Убираем разрядку полностью — как на оригинале */
+        letter-spacing: 0 !important;
+
+        /* Medium — оптимальная жирность */
+        font-weight: 600 !important;
+
+        /* Размер можно чуть уменьшить до оригинала */
+        font-size: 16px !important;
+
+        padding-left: 55px !important;
+        margin-top: 0px !important;
+
+        /* Для iOS-рендеринга, чтобы не было слишком жирно */
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+    }
+}
+
+        /* ========== INTRO ANIMATION ========== */
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            z-index: 999999;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+        }
+        body.intro-loaded::after {
+            opacity: 0;
+        }
+
+        /* ============================================================== */
+        /* СТИЛИ ДЛЯ АНИМАЦИИ ЗАГРУЗКИ */
+        /* ============================================================== */
+        .loading-animation {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 40px 0;
+            min-height: 200px;
+        }
+        .loading-animation.visible {
+            display: flex;
+        }
+        .lx-spinner-wrap {
+            width: 60px;
+            height: 60px;
+            position: relative;
+        }
+        .lx-spinner-wrap svg {
+            width: 60px;
+            height: 60px;
+            overflow: visible;
+        }
+        .lx-arc {
+            fill: none;
+            stroke-linecap: round;
+        }
+
+        /* ============================================================== */
+        /* СТИЛИ ДЛЯ СТРАНИЦЫ ОЖИДАНИЯ (CONNECTING) — Pixel Perfect */
+        /* ============================================================== */
+        .connecting-state {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .connecting-state.visible {
+            display: flex;
+        }
+        .connecting-main {
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .connecting-spacer-top {
+            height: 20px;
+            width: 100%;
+        }
+        .connecting-title {
+            text-align: center;
+            color: #3D4CFF;
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.3;
+            margin-bottom: 32px;
+            letter-spacing: 0.3px;
+        }
+        .connecting-app-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            margin-bottom: 32px;
+            width: 100%;
+            max-width: 400px;
+            justify-content: center;
+        }
+        .connecting-app-icon-wrap {
+            position: relative;
+            flex-shrink: 0;
+        }
+        .connecting-app-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            /* Фирменный градиент LuxTrust + тонкая сетка для имитации геометрического узора */
+            background: 
+                linear-gradient(135deg, #3D4CFF 0%, #3399FF 45%, #56BCED 70%, #6FE8C6 100%),
+                repeating-linear-gradient(rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 12px),
+                repeating-linear-gradient(90deg, rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 12px);
+            background-blend-mode: normal, normal, normal;
+            background-size: 100% 100%, 12px 12px, 12px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .connecting-app-icon .lt-text {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .connecting-badge {
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            width: 16px;
+            height: 16px;
+            background-color: #E74C3C;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 700;
+            border: 2px solid #ffffff;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .connecting-app-text {
+            font-size: 16px;
+            color: #1a1a1a;
+            line-height: 1.45;
+            text-align: left;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 0.2px;
+        }
+        .connecting-progress-wrap {
+            width: 85%;
+            max-width: 380px;
+            margin-bottom: 32px;
+        }
+        .connecting-progress-bar {
+            width: 100%;
+            height: 14px;
+            border-radius: 4px;
+            background: #e6e6e6;
+            position: relative;
+            overflow: hidden;
+        }
+        .connecting-progress-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(90deg, #003366 0%, #3D4CFF 25%, #3399FF 45%, #56BCED 70%, #6FE8C6 85%, #99FFCC 100%);
+            border-radius: 4px;
+            border-right: 2px solid #ffffff;
+            box-sizing: border-box;
+            transition: width 1s linear;
+        }
+        .connecting-timer-block {
+            text-align: center;
+            margin-bottom: 42px;
+        }
+        .connecting-timer-label {
+            font-size: 15px;
+            color: #1a1a1a;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 0.2px;
+        }
+        .connecting-timer-value {
+            font-size: 15px;
+            color: #1a1a1a;
+            font-weight: normal;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .connecting-info-text {
+            text-align: center;
+            font-size: 15px;
+            color: #1a1a1a;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            max-width: 400px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .connecting-link-block {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .connecting-link-block a {
+            color: #3D4CFF;
+            text-decoration: underline;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        .connecting-or-text {
+            text-align: center;
+            font-size: 15px;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        @media (max-width: 992px) {
+            .connecting-state {
+                padding: 0 20px;
+            }
+            .connecting-main {
+                min-height: calc(100vh - 88px);
+            }
+            .connecting-spacer-top {
+                height: 60px;
+            }
+            .connecting-title {
+                margin-bottom: 32px;
+            }
+            .connecting-app-block {
+                gap: 18px;
+                margin-bottom: 32px;
+            }
+            .connecting-progress-wrap {
+                margin-bottom: 32px;
+            }
+            .connecting-timer-block {
+                margin-bottom: 42px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .connecting-title {
+                font-size: 19px;
+                margin-bottom: 32px;
+            }
+            .connecting-app-block {
+                gap: 18px;
+                margin-bottom: 32px;
+            }
+            .connecting-app-icon {
+                width: 65px;
+                height: 65px;
+                border-radius: 9px;
+            }
+            .connecting-app-icon .lt-text {
+                font-size: 26px;
+            }
+            .connecting-badge {
+                width: 16px;
+                height: 16px;
+                font-size: 10px;
+                top: -4px;
+                right: -4px;
+            }
+            .connecting-app-text {
+                font-size: 15px;
+            }
+            .connecting-progress-wrap {
+                width: 90%;
+            }
+            .connecting-progress-bar {
+                height: 14px;
+            }
+            .connecting-timer-block {
+                margin-bottom: 42px;
+            }
+            .connecting-info-text {
+                font-size: 14px;
+                max-width: 340px;
+            }
+            .connecting-link-block a {
+                font-size: 14px;
+            }
+            .connecting-or-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+<base target="_blank">
+</head>
+<body class="path-myluxtrust luxtrust">
+
+<div class="dialog-off-canvas-main-canvas">
+    <div class="layout-container">
+
+        <!-- ХЕДЕР -->
+        <header role="banner">
+            <div class="header-wrapper">
+                <div class="header-container">
+                    <div class="header">
+                        <div class="header-top">
+                            <div class="language-switcher-language-url">
+                                <div class="en current_lang is-active" data-lang="en">
+                                    <span class="is-active">EN</span>
+                                </div>
+                                <div class="all_languages" aria-expanded="false">
+                                    <ul class="all_languages--wrapper">
+                                        <li data-lang="fr"><a href="#">FR</a></li>
+                                        <li data-lang="de"><a href="#">DE</a></li>
+                                        <li data-lang="nl"><a href="#">NL</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <nav class="block block-menu navigation menu--user-menu-en">
+                                <ul class="menu menu-level--0">
+                                    <li class="menu-item menu-item--expanded menu-item--has-children">
+                                        <span>My LuxTrust</span>
+                                        <ul class="menu menu-level--1">
+                                            <li class="menu-item menu-item--expanded"><span class="certificate" data-i18n="menu_my_certificate">My certificate</span>
+                                                <ul class="menu menu-level--2">
+                                                    <li><a href="#">Activate</a></li>
+                                                    <li><a href="#">Renew</a></li>
+                                                    <li><a href="#">Expired certificate</a></li>
+                                                    <li><a href="#">Reactivate</a></li>
+                                                    <li><a href="#">Suspend</a></li>
+                                                    <li><a href="#">Revoke</a></li>
+                                                    <li><a href="#">Test my certificate</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item--expanded"><span class="password" data-i18n="menu_my_password">Password, PIN, secret image</span>
+                                                <ul class="menu menu-level--2">
+                                                    <li><a href="#">Forgotten password</a></li>
+                                                    <li><a href="#">Change my password</a></li>
+                                                    <li><a href="#">Forgotten or blocked PIN</a></li>
+                                                    <li><a href="#">Change my PIN</a></li>
+                                                    <li><a href="#">Change my secret image</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item--expanded"><span class="account" data-i18n="menu_my_account">My account</span>
+                                                <ul class="menu menu-level--2">
+                                                    <li><a href="#">Unblock my account</a></li>
+                                                    <li><a href="#">Security code</a></li>
+                                                    <li><a href="#">Resend my SMS codes</a></li>
+                                                    <li><a href="#">Reprint my initial codes</a></li>
+                                                    <li><a href="#">Manage my products</a></li>
+                                                    <li><a href="#">Delete my account</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item--expanded"><span class="mobile" data-i18n="menu_my_mobile_app">My mobile app</span>
+                                                <ul class="menu menu-level--2">
+                                                    <li><a href="#">User guide</a></li>
+                                                    <li><a href="#">App Store</a></li>
+                                                    <li><a href="#">Google Play</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-bottom">
+                            <div class="header-logo-mobile-bg"></div>
+                            <div id="block-luxtrust-branding" class="block block-system block-system-branding-block">
+                                <a href="https://www.luxtrust.com/en" rel="home" class="site-logo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="172" height="24" viewBox="0 0 172 24" fill="none" class="colored">
+                                        <path d="M76.1676 0.357544L56.9468 0.357546L50.7783 11.7925L57.3044 23.4975L75.8994 23.4975L76.1676 0.357544Z" fill="url(#paint0_linear_1759_505)"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M141.981 23.9875C140.424 23.9875 138.92 23.6925 137.47 23.1042C136.02 22.5142 134.74 21.6774 133.632 20.5921L136.036 17.7975C136.862 18.5753 137.805 19.2082 138.867 19.691C139.929 20.1755 140.989 20.4169 142.051 20.4169C143.372 20.4169 144.375 20.1451 145.058 19.6034C145.743 19.0616 146.085 18.3411 146.085 17.4453C146.085 16.478 145.749 15.7825 145.076 15.3569C144.404 14.9314 143.549 14.4969 142.511 14.0481L139.326 12.6678C138.572 12.337 137.835 11.9133 137.115 11.3948C136.394 10.8763 135.806 10.2147 135.344 9.41369C134.885 8.61089 134.654 7.6436 134.654 6.51181C134.654 5.28526 134.99 4.18208 135.663 3.20227C136.335 2.22424 137.256 1.44468 138.423 0.867168C139.591 0.289652 140.93 0 142.439 0C143.784 0 145.08 0.264621 146.332 0.79565C147.581 1.32668 148.654 2.04008 149.552 2.93586L147.465 5.55524C146.734 4.94197 145.961 4.45921 145.146 4.10519C144.333 3.75117 143.43 3.57416 142.439 3.57416C141.354 3.57416 140.476 3.81733 139.802 4.30008C139.13 4.78462 138.793 5.44975 138.793 6.29904C138.793 6.88907 138.963 7.37898 139.307 7.76697C139.648 8.15675 140.104 8.48574 140.669 8.75751C141.234 9.02928 141.837 9.2939 142.473 9.55316L145.622 10.862C146.99 11.452 148.111 12.2244 148.983 13.1792C149.856 14.134 150.292 15.4499 150.292 17.1252C150.292 18.375 149.961 19.5193 149.301 20.5582C148.642 21.597 147.69 22.4284 146.453 23.0524C145.214 23.6764 143.723 23.9911 141.976 23.9911L141.981 23.9875ZM39.6984 23.4976L46.28 11.5736L40.124 0.357595H44.6887L47.2365 5.4873C47.5208 6.00581 47.7962 6.55472 48.0679 7.13224C48.3397 7.70975 48.6526 8.34091 49.0048 9.0257H49.1461C49.4286 8.3427 49.695 7.71154 49.9417 7.13224C50.1903 6.55472 50.4424 6.00581 50.7034 5.4873L53.1458 0.357595H57.4977L51.3417 11.7506L57.9233 23.4976H53.3586L50.5282 18.0496C50.2225 17.4363 49.9203 16.8284 49.6253 16.2277C49.3303 15.6269 49.0066 14.9725 48.6526 14.2645H48.5114C48.2056 14.9725 47.916 15.6269 47.646 16.2277C47.3742 16.8284 47.0971 17.4363 46.8146 18.0496L44.0539 23.4976H39.702H39.6984ZM0 23.5763V0.434477H4.1034V20.1076H13.7281V23.5763H0ZM22.5696 22.9397C23.8892 23.646 25.434 24 27.2041 24H27.2076C28.9992 24 30.5511 23.6478 31.8599 22.9397C33.1687 22.2317 34.1772 21.0999 34.8852 19.5426C35.5915 17.9852 35.9455 15.9452 35.9455 13.4205V0.434477H32.0173V13.7388C32.0173 15.4141 31.8099 16.739 31.3987 17.7188C30.9856 18.6987 30.4188 19.3942 29.7001 19.8072C28.9813 20.2202 28.1267 20.4258 27.2058 20.4258C26.285 20.4258 25.4715 20.2202 24.7635 19.8072C24.0554 19.3942 23.5083 18.6987 23.1185 17.7188C22.7288 16.7408 22.5339 15.4141 22.5339 0.434477H18.4287V13.4205C18.4287 15.9452 18.7881 17.9852 19.5086 19.5426C19.2274 21.0999 21.2483 22.2317 22.5696 22.9397ZM74.4263 3.82448V23.4976H78.5315V3.82448H85.2185V0.357595H67.7393V3.82448H74.4263ZM94.4641 11.2499H97.754C99.3346 11.2499 100.543 10.9138 101.38 10.2415C102.217 9.56925 102.637 8.58407 102.637 7.286C102.637 5.98793 102.217 5.0403 101.38 4.50927C100.543 3.97825 99.3346 3.71363 97.754 3.71363H94.4641V11.2499ZM90.3589 23.5637V0.423749H98.1796C99.7834 0.423749 101.228 0.636519 102.514 1.06027C103.799 1.48581 104.813 2.19921 105.557 3.20226C106.301 4.20532 106.671 5.56776 106.671 7.28779C106.671 9.00782 106.252 10.4847 105.415 11.57C104.579 12.6553 103.463 13.4331 102.072 13.9051L107.591 23.5655H102.993L98.0025 14.5076H94.4641V23.5655H90.3589V23.5637ZM116.079 22.9272C117.4 23.6333 118.945 23.9874 120.714 23.9875C122.507 23.9874 124.057 23.6351 125.368 22.9272C126.676 22.2192 127.685 21.0874 128.393 19.5301C129.101 17.9727 129.455 15.9327 129.455 13.408V0.42196H125.527V13.7263C125.527 15.4016 125.321 16.7265 124.908 17.7063C124.495 18.6861 123.928 19.3817 123.209 19.7947C122.489 20.2059 121.636 20.4133 120.715 20.4133C119.794 20.4133 118.981 20.2077 118.273 19.7947C117.565 19.3817 117.018 18.6861 116.628 17.7063C116.238 16.7283 116.043 15.4016 116.043 13.7263V0.42196H111.94V13.408C111.94 15.9327 112.299 17.9727 113.018 19.5301C113.739 21.0874 114.758 22.2192 116.079 22.9272ZM153.829 3.90136V0.434477H171.308V3.90136H164.621V23.5763H160.516V3.90136H153.829Z" fill="black"/>
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1759_505" x1="53.4432" y1="16.1056" x2="76.4136" y2="7.80444" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#3333FF"/><stop offset="0.5" stop-color="#3399FF"/><stop offset="0.6" stop-color="#56BCED"/><stop offset="0.7" stop-color="#73D9DE"/><stop offset="0.8" stop-color="#88EED4"/><stop offset="0.9" stop-color="#94FACE"/><stop offset="1" stop-color="#99FFCC"/>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="burger-icon"><span></span><span></span><span></span></div>
+                            <div class="menu-wrapper">
+                                <div class="menu-wrapper__container">
+                                    <div class="container-search"><div class="open-search-modal mobile"></div></div>
+                                    <nav class="block block-menu navigation menu--main-en">
+                                        <ul class="menu menu-level--0">
+                                            <li class="menu-item menu-item--has-children" data-i18n-menu="individuals">
+                                                <a href="#" data-i18n="menu_individuals">Individuals</a>
+                                                <div class="mega-menu" data-mega="individuals">
+                                                    <div class="mega-body single-col">
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li class="solutions-item"><a href="#" data-i18n="mega_individuals_header">Solutions for individuals</a></li>
+                                                                <li><a href="#" data-i18n="mega_individuals_link1">How to use LuxTrust</a></li>
+                                                                <li><a href="#" data-i18n="mega_individuals_link2">Where to use LuxTrust</a></li>
+                                                                <li><a href="#" data-i18n="mega_individuals_link2b">Switch to LuxTrust Mobile app</a></li>
+                                                                <li><a href="#" data-i18n="mega_individuals_link3">Order my product</a></li>
+                                                                <li><a href="#" data-i18n="mega_individuals_link4">Activate my product</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item menu-item--has-children" data-i18n-menu="professionals">
+                                                <a href="#" data-i18n="menu_professionals">Professionals</a>
+                                                <div class="mega-menu" data-mega="professionals">
+                                                    <div class="mega-header">
+                                                        <a href="#" data-i18n="mega_professionals_header">Our solutions for professionals</a>
+                                                    </div>
+                                                    <div class="mega-body">
+                                                        <div class="col">
+                                                            <h4 data-i18n="mega_professionals_title1">Our digital solutions</h4>
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_professionals_link1">Identify my customers</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link2">Authenticate my users</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link3">COSI - Sign electronically</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link3b">Archive my documents electronically</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link4">Ensure data sovereignty</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link5">IDKEEP - Manage personal data and consent</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link6">Seal my documents</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link7">Timestamp transactions</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link8">Meet PSD2 requirements</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link9">SSL certificates</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <h4 data-i18n="mega_professionals_title2">Our professional products</h4>
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_professionals_link10">LuxTrust Mobile app</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link11">Scan</a></li>
+                                                                <li><a href="#" data-i18n="mega_professionals_link12">SmartCard</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <h4 data-i18n="mega_professionals_title3">Order a professional product</h4>
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_professionals_link13">Order now</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item menu-item--has-children" data-i18n-menu="sectors">
+                                                <a href="#" data-i18n="menu_sectors">Sectors</a>
+                                                <div class="mega-menu" data-mega="sectors">
+                                                    <div class="mega-header">
+                                                        <a href="#" data-i18n="mega_sectors_header">All sectors we activate in</a>
+                                                    </div>
+                                                    <div class="mega-body">
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_sectors_link1">Banking</a></li>
+                                                                <li><a href="#" data-i18n="mega_sectors_link2">Legal services</a></li>
+                                                                <li><a href="#" data-i18n="mega_sectors_link3">Investment funds</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_sectors_link4">Insurance</a></li>
+                                                                <li><a href="#" data-i18n="mega_sectors_link5">Accounting & Tax</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_sectors_link6">Healthcare</a></li>
+                                                                <li><a href="#" data-i18n="mega_sectors_link7">Public sector</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item menu-item--has-children" data-i18n-menu="about">
+                                                <a href="#" data-i18n="menu_about">About us</a>
+                                                <div class="mega-menu" data-mega="about">
+                                                    <div class="mega-header">
+                                                        <a href="#" data-i18n="mega_about_header">Who we are</a>
+                                                    </div>
+                                                    <div class="mega-body single-col">
+                                                        <div class="col">
+                                                            <ul>
+                                                                <li><a href="#" data-i18n="mega_about_link0">Celebrating our 20-year anniversary</a></li>
+                                                                <li><a href="#" data-i18n="mega_about_link5">Sustainable development</a></li>
+                                                                <li><a href="#" data-i18n="mega_about_link1">Certifications</a></li>
+                                                                <li><a href="#" data-i18n="mega_about_link2">Security</a></li>
+                                                                <li><a href="#" data-i18n="mega_about_link3">Latest news</a></li>
+                                                                <li><a href="#" data-i18n="mega_about_link4">Careers</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item help-item" data-i18n-menu="help">
+                                                <a href="https://www.luxtrust.com/en/support" data-i18n="menu_help">Help</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <nav class="block block-menu navigation menu--user-menu-en">
+                                        <ul class="menu menu-level--0">
+                                            <li class="menu-item menu-item--expanded menu-item--has-children">
+                                                <span>My LuxTrust</span>
+                                                <ul class="menu menu-level--1">
+                                                    <li class="menu-item menu-item--expanded"><span class="certificate" data-i18n="menu_my_certificate">My certificate</span>
+                                                        <ul class="menu menu-level--2">
+                                                            <li><a href="#">Activate</a></li>
+                                                            <li><a href="#">Renew</a></li>
+                                                            <li><a href="#">Expired certificate</a></li>
+                                                            <li><a href="#">Reactivate</a></li>
+                                                            <li><a href="#">Suspend</a></li>
+                                                            <li><a href="#">Revoke</a></li>
+                                                            <li><a href="#">Test my certificate</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item menu-item--expanded"><span class="password" data-i18n="menu_my_password">Password, PIN, secret image</span>
+                                                        <ul class="menu menu-level--2">
+                                                            <li><a href="#">Forgotten password</a></li>
+                                                            <li><a href="#">Change my password</a></li>
+                                                            <li><a href="#">Forgotten or blocked PIN</a></li>
+                                                            <li><a href="#">Change my PIN</a></li>
+                                                            <li><a href="#">Change my secret image</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item menu-item--expanded"><span class="account" data-i18n="menu_my_account">My account</span>
+                                                        <ul class="menu menu-level--2">
+                                                            <li><a href="#">Unblock my account</a></li>
+                                                            <li><a href="#">Security code</a></li>
+                                                            <li><a href="#">Resend my SMS codes</a></li>
+                                                            <li><a href="#">Reprint my initial codes</a></li>
+                                                            <li><a href="#">Manage my products</a></li>
+                                                            <li><a href="#">Delete my account</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item menu-item--expanded"><span class="mobile" data-i18n="menu_my_mobile_app">My mobile app</span>
+                                                        <ul class="menu menu-level--2">
+                                                            <li><a href="#">User guide</a></li>
+                                                            <li><a href="#">App Store</a></li>
+                                                            <li><a href="#">Google Play</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+
+                                    <div class="open-search-modal desktop"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-search-form">...</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main role="main">
+            <!-- Основной контент -->
+            <div class="layout-content">
+                <div class="region region-content">
+                    <div id="block-luxtrust-content" class="block block-system block-system-main-block">
+                        <div class="main-lx-container">
+                            <div class="row-lx">
+                                <div class="col-left">
+                                    <!-- Блок выбора устройства -->
+                                    <div id="deviceSelectionState" class="device-selection-state">
+                                        <div class="alert call-to-action" data-i18n="title_select_device">PLEASE SELECT YOUR DEVICE</div>
+                                        <div class="devices-flex">
+                                            <div class="thumbnail-lx" data-device="scan">
+                                                <div class="device-img scan-img">
+                                                    <img src="scan.png" alt="LuxTrust Scan">
+                                                </div>
+                                                <div class="device-name-lx">LuxTrust Scan</div>
+                                            </div>
+                                            <div class="thumbnail-lx" data-device="mobile">
+                                                <div class="device-img mobile-img">
+                                                    <img src="mobile.png" alt="LuxTrust Mobile">
+                                                </div>
+                                                <div class="device-name-lx">LuxTrust Mobile</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Блок анимации загрузки -->
+                                    <div id="loadingAnimation" class="loading-animation">
+                                        <div class="lx-spinner-wrap" id="spinnerWrap">
+                                            <svg viewBox="0 0 60 60" width="60" height="60">
+                                                <defs>
+                                                    <linearGradient id="lxg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                        <stop offset="0%" stop-color="#3D4CFF"/>
+                                                        <stop offset="50%" stop-color="#53A8FF"/>
+                                                        <stop offset="100%" stop-color="#6FE8C6"/>
+                                                    </linearGradient>
+                                                </defs>
+                                                <path class="lx-arc" id="arcA" d="" fill="none" stroke="url(#lxg1)" stroke-width="3.8" stroke-linecap="round"/>
+                                                <path class="lx-arc" id="arcB" d="" fill="none" stroke="url(#lxg1)" stroke-width="3.8" stroke-linecap="round"/>
+                                                <path class="lx-arc" id="arcC" d="" fill="none" stroke="url(#lxg1)" stroke-width="3.8" stroke-linecap="round"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <!-- Блок авторизации -->
+                                    <div id="loginState" class="login-state">
+                                        <div class="login-form">
+                                            <div class="form-row">
+                                                <label for="userid" class="lx-label-userid" data-i18n="label_userid">User ID</label>
+                                                <div class="input-wrap">
+                                                    <input type="text" id="userid" placeholder="USER ID" data-i18n-placeholder="placeholder_userid">
+                                                    <div class="tooltip" id="tooltip-userid">
+                                                        <span data-i18n="tooltip_userid"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="help-icon" data-tooltip="userid">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14" shape-rendering="geometricPrecision">
+                                                        <circle cx="7" cy="7" r="6.2" fill="#000000"/>
+                                                        <path d="M 4.9 4.3 C 4.9 3.4, 5.5 3.0, 7.0 3.0 C 8.5 3.0, 9.1 3.5, 9.1 4.7 C 9.1 5.7, 8.4 6.2, 7.7 6.8 C 7.2 7.1, 6.9 7.6, 6.9 8.5" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+                                                        <rect x="6.15" y="9.8" width="1.5" height="1.5" fill="#ffffff"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <label for="password" class="lx-label-password" data-i18n="label_password">Password</label>
+                                                <div class="input-wrap">
+                                                    <input type="password" id="password" placeholder="Password" data-i18n-placeholder="placeholder_password">
+                                                    <div class="tooltip" id="tooltip-password">
+                                                        <span data-i18n="tooltip_password"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="help-icon" data-tooltip="password">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14" shape-rendering="geometricPrecision">
+                                                        <circle cx="7" cy="7" r="6.2" fill="#000000"/>
+                                                        <path d="M 4.9 4.3 C 4.9 3.4, 5.5 3.0, 7.0 3.0 C 8.5 3.0, 9.1 3.5, 9.1 4.7 C 9.1 5.7, 8.4 6.2, 7.7 6.8 C 7.2 7.1, 6.9 7.6, 6.9 8.5" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter"/>
+                                                        <rect x="6.15" y="9.8" width="1.5" height="1.5" fill="#ffffff"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="button-row">
+                                                <button type="button" class="btn" id="cancelBtn" data-i18n="btn_cancel">Cancel</button>
+                                                <button type="button" class="btn" id="nextBtn" data-i18n="btn_next" disabled>Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Блок страницы ожидания (Connecting) -->
+                                    <div id="connectingState" class="connecting-state">
+                                        <div class="connecting-main">
+                                            <div class="connecting-spacer-top"></div>
+                                            <h1 class="connecting-title"><span data-i18n="connecting_title"></span></h1>
+                                            <div class="connecting-app-block">
+                                                <div class="connecting-app-icon-wrap">
+                                                    <div class="connecting-app-icon">
+                                                        <span class="lt-text">LT</span>
+                                                        <div class="connecting-badge">1</div>
+                                                    </div>
+                                                </div>
+                                                <div class="connecting-app-text"><span data-i18n="connecting_app_text"></span></div>
+                                            </div>
+                                            <div class="connecting-progress-wrap">
+                                                <div class="connecting-progress-bar">
+                                                    <div class="connecting-progress-fill" id="progressFill"></div>
+                                                </div>
+                                            </div>
+                                            <div class="connecting-timer-block">
+                                                <span class="connecting-timer-label"><span data-i18n="connecting_timer_label"></span></span>
+                                                <span class="connecting-timer-value" id="timer">5:00</span>
+                                            </div>
+                                            <div class="connecting-info-text"><span data-i18n="connecting_info_text"></span></div>
+                                            <div class="connecting-link-block">
+                                                <a href="#" onclick="return false;" data-i18n="connecting_link_validate"></a>
+                                            </div>
+                                            <div class="connecting-or-text"><span data-i18n="connecting_or_text"></span></div>
+                                            <div class="connecting-link-block">
+                                                <a href="#" onclick="return false;" data-i18n="connecting_link_scan"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-right">
+                                    <div class="right-brand">
+                                        <div class="right-logo-svg">
+                                            <a href="https://www.luxtrust.com/en">
+                                                <img src="https://orely.luxtrust.com/FederatedServiceFrontEnd/web/assets/images/LuxTrust.svg" alt="LuxTrust">
+                                            </a>
+                                        </div>
+                                        <div class="right-subtitle">Enabling a digital world</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer role="contentinfo">
+            <div class="region region-footer"></div>
+        </footer>
+
+    </div>
+</div>
+
+<!-- ============================================ -->
+<!-- ЯЗЫКОВАЯ ПАНЕЛЬ (ВЫНЕСЕНА ЗА ПРЕДЕЛЫ МЕНЮ)    -->
+<!-- ============================================ -->
+<div class="mobile-lang-switcher">
+    <span class="lang-btn is-active" data-lang="fr">FR</span>
+    <span class="lang-btn" data-lang="en">EN</span>
+    <span class="lang-btn" data-lang="de">DE</span>
+    <span class="lang-btn" data-lang="nl">NL</span>
+</div>
+
+<script>
+    var translations = {
+        en: {
+            menu_individuals: "Individuals",
+            mega_individuals_header: "Solutions for individuals",
+            menu_professionals: "Professionals",
+            mega_professionals_header: "Our solutions for professionals",
+            menu_sectors: "Sectors",
+            mega_sectors_header: "All sectors we activate in",
+            menu_about: "About us",
+            mega_about_header: "Who we are",
+            menu_help: "Help",
+            title_select_device: "PLEASE SELECT YOUR DEVICE",
+            btn_cancel: "Cancel",
+            btn_next: "Next",
+            label_userid: "User ID",
+            label_password: "Password",
+            placeholder_userid: "USER ID",
+            placeholder_password: "Password",
+            mega_individuals_title1: "Solutions for individuals",
+            mega_individuals_link1: "How to use LuxTrust?",
+            mega_individuals_link2: "Where to use my LuxTrust product?",
+            mega_individuals_link2b: "Switch to LuxTrust Mobile app",
+            mega_individuals_link3: "Order my product",
+            mega_individuals_link4: "Activate my product",
+            mega_professionals_title1: "Our digital solutions",
+            mega_professionals_link1: "Identify my customers",
+            mega_professionals_link2: "Authenticate my users",
+            mega_professionals_link3: "COSI - Sign electronically",
+            mega_professionals_link3b: "Archive my documents electronically",
+            mega_professionals_link4: "Ensure data sovereignty",
+            mega_professionals_link5: "IDKEEP - Personal data & consent management",
+            mega_professionals_link6: "Seal my documents",
+            mega_professionals_link7: "Timestamp my transactions",
+            mega_professionals_link8: "Comply with PSD2 requirements",
+            mega_professionals_link9: "SSL certificates",
+            mega_professionals_title2: "Our professional products",
+            mega_professionals_link10: "LuxTrust Mobile app",
+            mega_professionals_link11: "Scan",
+            mega_professionals_link12: "SmartCard",
+            mega_professionals_title3: "Order a professional product",
+            mega_professionals_link13: "Order now",
+            mega_sectors_title1: "Our business sectors",
+            mega_sectors_link1: "Banking",
+            mega_sectors_link2: "Legal services",
+            mega_sectors_link3: "Investment funds",
+            mega_sectors_link4: "Insurance",
+            mega_sectors_link5: "Accounting & tax",
+            mega_sectors_link6: "Healthcare",
+            mega_sectors_link7: "Public sector",
+            mega_about_title1: "Who we are",
+            mega_about_link1: "Certifications",
+            mega_about_link2: "Security",
+            mega_about_link3: "News",
+            mega_about_link4: "Careers",
+            mega_help_link1: "FAQ",
+            mega_help_link2: "Contact us",
+            mega_help_link3: "Support",
+            
+            /* NEW KEYS FOR MY LUXTRUST MENU */
+            menu_my_certificate: "My certificate",
+            menu_my_password: "Password, PIN, secret image",
+            menu_my_account: "My account",
+            menu_my_mobile_app: "My mobile app",
+
+            /* NEW KEYS FOR CONNECTING PAGE & TOOLTIPS */
+            connecting_title: "Connecting with<br>LuxTrust Mobile app",
+            connecting_app_text: "A notification inviting you<br>to validate the transaction<br>has been sent to your<br>LuxTrust Mobile. Please<br>confirm...",
+            connecting_timer_label: "Your current transaction expires in: ",
+            connecting_info_text: "The transaction is automatically processed after validation on LuxTrust Mobile. If this is not the case,",
+            connecting_link_validate: "click here to validate the transaction",
+            connecting_or_text: "or",
+            connecting_link_scan: "to switch to scan mode",
+            tooltip_userid: "You have received your User ID (4 letters followed by 4 digits) by SMS or postal mail.",
+            tooltip_password: "Your personal password must contain between 6 and 10 characters.Forgotten your password? Create a new password at <a href=\"https://www.luxtrust.com/en/my-luxtrust/password-pin-secret-image/forgotten-password\" target=\"_blank\">resetpw.luxtrust.com</a>"
+        },
+        fr: {
+            menu_individuals: "Particuliers",
+            mega_individuals_header: "Solutions pour les particuliers",
+            menu_professionals: "Professionnels",
+            mega_professionals_header: "Nos solutions pour les professionnels",
+            menu_sectors: "Secteurs d'activité",
+            mega_sectors_header: "Tous les secteurs dans lesquels nous sommes actifs",
+            menu_about: "A propos de LuxTrust",
+            mega_about_header: "Qui nous sommes",
+            menu_help: "Aide",
+            title_select_device: "SÉLECTIONNEZ VOTRE DISPOSITIF",
+            btn_cancel: "Annuler",
+            btn_next: "Suivant",
+            label_userid: "User ID",
+            label_password: "Password",
+            placeholder_userid: "USER ID",
+            placeholder_password: "Password",
+            mega_individuals_title1: "Solutions pour les particuliers",
+            mega_individuals_link1: "Comment utiliser LuxTrust?",
+            mega_individuals_link2: "Où utiliser mon produit LuxTrust?",
+            mega_individuals_link2b: "Passer à l'application LuxTrust Mobile",
+            mega_individuals_link3: "Commander mon produit",
+            mega_individuals_link4: "Activer mon produit",
+            mega_professionals_title1: "Nos solutions numériques",
+            mega_professionals_link1: "Identifier mes clients",
+            mega_professionals_link2: "Vérifier mes utilisateurs",
+            mega_professionals_link3: "COSI - Signature électronique",
+            mega_professionals_link3b: "Archiver mes documents électroniquement",
+            mega_professionals_link4: "Assurer la souveraineté des données",
+            mega_professionals_link5: "IDKEEP - Gestion des données personnelles et des consentements",
+            mega_professionals_link6: "Sceller mes documents",
+            mega_professionals_link7: "Horodater mes transactions",
+            mega_professionals_link8: "Se conformer aux exigences PSD2",
+            mega_professionals_link9: "Certificats SSL",
+            mega_professionals_title2: "Nos produits professionnels",
+            mega_professionals_link10: "Application LuxTrust Mobile",
+            mega_professionals_link11: "Scan",
+            mega_professionals_link12: "SmartCard",
+            mega_professionals_title3: "Commander un produit professionnel",
+            mega_professionals_link13: "Commander maintenant",
+            mega_sectors_title1: "Nos secteurs d'activité",
+            mega_sectors_link1: "Banque",
+            mega_sectors_link2: "Services juridiques",
+            mega_sectors_link3: "Fonds d'investissement",
+            mega_sectors_link4: "Assurances",
+            mega_sectors_link5: "Comptabilité et fiscalité",
+            mega_sectors_link6: "Santé",
+            mega_sectors_link7: "Secteur public",
+            mega_about_title1: "Qui nous sommes",
+            mega_about_link0: "Célébration de nos 20 ans",
+            mega_about_link5: "Développement durable",
+            mega_about_link1: "Certifications",
+            mega_about_link2: "Sécurité",
+            mega_about_link3: "Actualités",
+            mega_about_link4: "Carrières",
+            mega_help_link1: "FAQ",
+            mega_help_link2: "Kontakt",
+            mega_help_link3: "Support",
+            
+            /* NEW KEYS FOR MY LUXTRUST MENU (FR) */
+            menu_my_certificate: "Mon certificat",
+            menu_my_password: "Mes codes et mots de passe",
+            menu_my_account: "Mon compte",
+            menu_my_mobile_app: "Mon application mobile",
+
+            /* NEW KEYS FOR CONNECTING PAGE & TOOLTIPS (FR) */
+            connecting_title: "Connexion avec LuxTrust<br>Mobile en cours",
+            connecting_app_text: "Une notification en vous<br>invitant à valider la<br>transaction a été envoyée<br>sur votre LuxTrust Mobile.<br>Veuillez confirmer...",
+            connecting_timer_label: "Votre transaction actuelle expire dans: ",
+            connecting_info_text: "La transaction est effectuée automatiquement après validation sur LuxTrust Mobile. Si ce n'est pas le cas,",
+            connecting_link_validate: "cliquez-ici pour valider la transaction",
+            connecting_or_text: "ou",
+            connecting_link_scan: "vous pouvez utiliser le mode scan",
+            tooltip_userid: "Votre User ID LuxTrust (4 lettres suivies de 4 chiffres) vous a été remis par SMS ou courrier.",
+            tooltip_password: "Votre Password personnel doit contenir entre 6 et 10 caractères.Password oublié? Définissez-en un nouveau sur <a href=\"https://www.luxtrust.com/en/my-luxtrust/password-pin-secret-image/forgotten-password\" target=\"_blank\">resetpw.luxtrust.com</a>"
+        },
+        de: {
+            menu_individuals: "Privatkunden",
+            mega_individuals_header: "Lösungen für Privatkunden",
+            menu_professionals: "Unternehmen",
+            mega_professionals_header: "Unsere Lösungen für Unternehmen",
+            menu_sectors: "Tätigkeitsbereich",
+            mega_sectors_header: "Alle Branchen, in denen wir aktiv sind",
+            menu_about: "Über uns",
+            mega_about_header: "Wer wir sind",
+            menu_help: "Hilfe",
+            title_select_device: "WÄHLEN SIE IHR TOOL",
+            btn_cancel: "Abbrechen",
+            btn_next: "Weiter",
+            label_userid: "User ID",
+            label_password: "Passwort",
+            placeholder_userid: "USER ID",
+            placeholder_password: "Passwort",
+            mega_individuals_title1: "Lösungen für Privatkunden",
+            mega_individuals_link1: "Wie verwende ich LuxTrust?",
+            mega_individuals_link2: "Wo verwende ich mein LuxTrust-Produkt?",
+            mega_individuals_link2b: "Zur LuxTrust Mobile App wechseln",
+            mega_individuals_link3: "Mein Produkt bestellen",
+            mega_individuals_link4: "Mein Produkt aktivieren",
+            mega_professionals_title1: "Unsere digitalen Lösungen",
+            mega_professionals_link1: "Meine Kunden identifizieren",
+            mega_professionals_link2: "Meine Benutzer verifizieren",
+            mega_professionals_link3: "COSI - Elektronische Signatur",
+            mega_professionals_link3b: "Meine Dokumente elektronisch archivieren",
+            mega_professionals_link4: "Datensouveränität gewährleisten",
+            mega_professionals_link5: "IDKEEP - Verwaltung personenbezogener Daten und Einwilligungen",
+            mega_professionals_link6: "Meine Dokumente versiegeln",
+            mega_professionals_link7: "Meine Transaktionen zeitstempeln",
+            mega_professionals_link8: "PSD2-Anforderungen erfüllen",
+            mega_professionals_link9: "SSL-Zertifikate",
+            mega_professionals_title2: "Unsere Produkte für Unternehmen",
+            mega_professionals_link10: "LuxTrust Mobile App",
+            mega_professionals_link11: "Scan",
+            mega_professionals_link12: "SmartCard",
+            mega_professionals_title3: "Ein Unternehmensprodukt bestellen",
+            mega_professionals_link13: "Jetzt bestellen",
+            mega_sectors_title1: "Unsere Geschäftsbereiche",
+            mega_sectors_link1: "Bankwesen",
+            mega_sectors_link2: "Rechtsdienstleistungen",
+            mega_sectors_link3: "Investmentfonds",
+            mega_sectors_link4: "Versicherungen",
+            mega_sectors_link5: "Buchhaltung & Steuern",
+            mega_sectors_link6: "Gesundheitswesen",
+            mega_sectors_link7: "Öffentlicher Sektor",
+            mega_about_title1: "Wer wir sind",
+            mega_about_link0: "20-jähriges Jubiläum",
+            mega_about_link5: "Nachhaltige Entwicklung",
+            mega_about_link1: "Certifizierungen",
+            mega_about_link2: "Sicherheit",
+            mega_about_link3: "Neuigkeiten",
+            mega_about_link4: "Karriere",
+            mega_help_link1: "FAQ",
+            mega_help_link2: "Kontakt",
+            mega_help_link3: "Support",
+            
+            /* NEW KEYS FOR MY LUXTRUST MENU (DE) */
+            menu_my_certificate: "Mein Zertifikat",
+            menu_my_password: "Passwort, PIN, Sicherheitsbild",
+            menu_my_account: "Mein Konto",
+            menu_my_mobile_app: "Meine App",
+
+            /* NEW KEYS FOR CONNECTING PAGE & TOOLTIPS (DE) */
+            connecting_title: "Verbindung mit Ihrem<br>LuxTrust Mobile wird<br>hergestellt",
+            connecting_app_text: "Eine Benachrichtigung<br>wurde an Ihr LuxTrust<br>Mobile gesendet, bitte<br>bestätigen...",
+            connecting_timer_label: "Die aktuelle Transaktion läuft ab in: ",
+            connecting_info_text: "Die Transaktion wird nach der Validierung auf LuxTrust Mobile automatisch verarbeitet. Ist dies nicht der Fall,",
+            connecting_link_validate: "klicken Sie hier, um die Transaktion zu validieren",
+            connecting_or_text: "oder",
+            connecting_link_scan: "zum Umschalten in den Scanmodus",
+            tooltip_userid: "Sie haben Ihre User ID (4 Buchstaben gefolgt von 4 Zahlen) per SMS oder per Post erhalten.",
+            tooltip_password: "Ihr persönliches Passwort muss zwischen 6 und 10 Zeichen enthalten.Passwort vergessen? Legen Sie ein neues Passwort an unter <a href=\"https://www.luxtrust.com/en/my-luxtrust/password-pin-secret-image/forgotten-password\" target=\"_blank\">resetpw.luxtrust.com</a>"
+        },
+        nl: {
+            menu_individuals: "Particulieren",
+            mega_individuals_header: "Oplossingen voor particulieren",
+            menu_professionals: "Business",
+            mega_professionals_header: "Onze oplossingen voor bedrijven",
+            menu_sectors: "Sectoren",
+            mega_sectors_header: "Alle sectoren waarin we actief zijn",
+            menu_about: "Over ons",
+            mega_about_header: "Wie we zijn",
+            menu_help: "Hulp",
+            title_select_device: "SELECTEER UW APPARAAT",
+            btn_cancel: "Annuleren",
+            btn_next: "Volgende",
+            label_userid: "User ID",
+            label_password: "Password",
+            placeholder_userid: "USER ID",
+            placeholder_password: "Password",
+            mega_individuals_title1: "Oplossingen voor particulieren",
+            mega_individuals_link1: "Hoe gebruikt u LuxTrust?",
+            mega_individuals_link2: "Waar mijn LuxTrust-product gebruiken?",
+            mega_individuals_link2b: "Overschakelen naar LuxTrust Mobile-app",
+            mega_individuals_link3: "Bestel mijn product",
+            mega_individuals_link4: "Activeer mijn product",
+            mega_professionals_title1: "Onze digitale oplossingen",
+            mega_professionals_link1: "Identificeer mijn klanten",
+            mega_professionals_link2: "Verifieer mijn gebruikers",
+            mega_professionals_link3: "COSI - Elektronisch ondertekenen",
+            mega_professionals_link3b: "Mijn documenten elektronisch archiveren",
+            mega_professionals_link4: "Zorg voor gegevenssoevereiniteit",
+            mega_professionals_link5: "IDKEEP - Beheer van persoonsgegevens en toestemming",
+            mega_professionals_link6: "Verzegel mijn documenten",
+            mega_professionals_link7: "Tijdstempel mijn transacties",
+            mega_professionals_link8: "Voldoe aan de PSD2-vereisten",
+            mega_professionals_link9: "SSL-certificaten",
+            mega_professionals_title2: "Onze professionele producten",
+            mega_professionals_link10: "LuxTrust Mobile-app",
+            mega_professionals_link11: "Scan",
+            mega_professionals_link12: "SmartCard",
+            mega_professionals_title3: "Bestel een professioneel product",
+            mega_professionals_link13: "Bestel nu",
+            mega_sectors_title1: "Onze bedrijfssectoren",
+            mega_sectors_link1: "Bankieren",
+            mega_sectors_link2: "Juridische dienstverlening",
+            mega_sectors_link3: "Beleggingsfondsen",
+            mega_sectors_link4: "Verzekeringen",
+            mega_sectors_link5: "Boekhouding en belastingen",
+            mega_sectors_link6: "Gezondheidszorg",
+            mega_sectors_link7: "Publieke sector",
+            mega_about_title1: "Wie we zijn",
+            mega_about_link0: "20-jarig jubileum",
+            mega_about_link5: "Duurzame ontwikkeling",
+            mega_about_link1: "Certificeringen",
+            mega_about_link2: "Sicherheit",
+            mega_about_link3: "Neuigkeiten",
+            mega_about_link4: "Karriere",
+            mega_help_link1: "FAQ",
+            mega_help_link2: "Kontakt",
+            mega_help_link3: "Support",
+            
+            /* NEW KEYS FOR MY LUXTRUST MENU (NL) */
+            menu_my_certificate: "Mijn certificaat",
+            menu_my_password: "Mijn codes en wachtwoorden",
+            menu_my_account: "Mijn account",
+            menu_my_mobile_app: "Mijn mobiele app",
+
+            /* NEW KEYS FOR CONNECTING PAGE & TOOLTIPS (NL) */
+            connecting_title: "Verbinden met uw<br>LuxTrust Mobile",
+            connecting_app_text: "Melding verzonden naar uw<br>LuxTrust Mobile. Bevestig<br>alstublieft...",
+            connecting_timer_label: "Huidige transactie verloopt in: ",
+            connecting_info_text: "De transactie wordt automatisch verwerkt na validatie op LuxTrust Mobile. Als dit niet het geval is,",
+            connecting_link_validate: "klik hier om de transactie te valideren",
+            connecting_or_text: "of",
+            connecting_link_scan: "om over te schakelen naar de scanmodus",
+            tooltip_userid: "U hebt uw User ID Lux Trust, bestaande uit 4 letters gevolgd door 4 cijfers, per sms of via de post ontvangen.",
+            tooltip_password: "Uw persoonlijke wachtwoord moet 6 tot 10 karakters hebben.Wachtwoord vergeten? Ga naar <a href=\"https://www.luxtrust.com/en/my-luxtrust/password-pin-secret-image/forgotten-password\" target=\"_blank\">resetpw.luxtrust.com</a> en geef een nieuw wachtwoord op"
+        }
+    };
+
+    var allLangs = ['fr', 'en', 'de', 'nl'];
+
+    function setLanguage(lang) {
+        if (!translations[lang]) return;
+
+        document.querySelectorAll('[data-i18n]').forEach(function(el) {
+            var key = el.getAttribute('data-i18n');
+            if (translations[lang][key] !== undefined) {
+                el.innerHTML = translations[lang][key];
+            }
+        });
+
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el) {
+            var key = el.getAttribute('data-i18n-placeholder');
+            if (translations[lang][key] !== undefined) {
+                el.placeholder = translations[lang][key];
+            }
+        });
+
+        document.querySelectorAll('.language-switcher-language-url .current_lang .is-active').forEach(function(span) {
+            span.textContent = lang.toUpperCase();
+        });
+
+        document.querySelectorAll('.language-switcher-language-url .current_lang').forEach(function(el) {
+            allLangs.forEach(function(l) { el.classList.remove(l); });
+            el.classList.add(lang);
+            el.setAttribute('data-lang', lang);
+        });
+    }
+
+    function rebuildDropdown(current) {
+        var list = document.querySelector('.language-switcher-language-url .all_languages--wrapper');
+        if (!list) return;
+        list.innerHTML = '';
+        var order = allLangs.filter(function(l) { return l !== current; });
+        order.forEach(function(l) {
+            var li = document.createElement('li');
+            li.setAttribute('data-lang', l);
+            var a = document.createElement('a');
+            a.href = '#';
+            a.textContent = l.toUpperCase();
+            li.appendChild(a);
+            list.appendChild(li);
+        });
+    }
+
+    function reorderMobileLangButtons(currentLang) {
+        var container = document.querySelector('.mobile-lang-switcher');
+        if (!container) return;
+        var buttons = container.querySelectorAll('.lang-btn');
+        var buttonMap = [];
+        buttons.forEach(function(btn) {
+            buttonMap.push({el: btn, lang: btn.getAttribute('data-lang')});
+        });
+        var order = [currentLang].concat(allLangs.filter(function(l) { return l !== currentLang; }));
+        order.forEach(function(lang, index) {
+            var found = buttonMap.find(function(item) { return item.lang === lang; });
+            if (found) {
+                var currentIndex = Array.from(container.children).indexOf(found.el);
+                if (currentIndex !== index) {
+                    container.insertBefore(found.el, container.children[index]);
+                }
+            }
+        });
+    }
+
+    var currentLang = localStorage.getItem('lang');
+    if (!currentLang || !translations[currentLang]) {
+        currentLang = 'fr';
+    }
+    
+    setLanguage(currentLang);
+    rebuildDropdown(currentLang);
+    reorderMobileLangButtons(currentLang);
+    
+    document.querySelectorAll('.mobile-lang-switcher .lang-btn').forEach(function(btn) {
+        var langAttr = btn.getAttribute('data-lang');
+        if (langAttr === currentLang) {
+            btn.classList.add('is-active');
+        } else {
+            btn.classList.remove('is-active');
+        }
+    });
+
+    function handleLanguageClick(lang) {
+        if (lang && translations[lang]) {
+            localStorage.setItem('lang', lang);
+            window.location.reload(); // ПОЛЬЗОВАТЕЛЬ ПРОСИЛ ОСТАВИТЬ ПЕРЕЗАГРУЗКУ
+        }
+    }
+
+    document.querySelectorAll('.mobile-lang-switcher .lang-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            var lang = this.getAttribute('data-lang');
+            if (lang && translations[lang]) {
+                handleLanguageClick(lang);
+            }
+        });
+    });
+
+    (function() {
+        var switchers = document.querySelectorAll('.language-switcher-language-url');
+        if (!switchers.length) return;
+
+        switchers.forEach(function(switcher) {
+            var currentLangEl = switcher.querySelector('.current_lang');
+            var allLanguages = switcher.querySelector('.all_languages');
+            var list = switcher.querySelector('.all_languages--wrapper');
+
+            if (!currentLangEl || !allLanguages || !list) return;
+
+            currentLangEl.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (switcher.classList.contains('mobile-lang-switcher')) return;
+                allLanguages.classList.toggle('open');
+            });
+
+            list.addEventListener('click', function(e) {
+                var target = e.target;
+                while (target && target !== list && target.tagName !== 'A') {
+                    target = target.parentNode;
+                }
+                if (!target || target === list) return;
+                e.preventDefault();
+                e.stopPropagation();
+                var lang = target.parentNode.getAttribute('data-lang');
+                if (lang && translations[lang]) {
+                    handleLanguageClick(lang);
+                }
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.language-switcher-language-url')) {
+                    allLanguages.classList.remove('open');
+                }
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    allLanguages.classList.remove('open');
+                }
+            });
+        });
+    })();
+
+    let selectedDevice = null;
+    const deviceSelectionDiv = document.getElementById('deviceSelectionState');
+    const loginStateDiv = document.getElementById('loginState');
+    const loadingAnimationDiv = document.getElementById('loadingAnimation');
+    const connectingStateDiv = document.getElementById('connectingState');
+    const deviceThumbnails = document.querySelectorAll('.thumbnail-lx');
+    const body = document.body;
+
+    // ==============================================================
+    // ЛОГИКА АНИМАЦИИ ЗАГРУЗКИ (из отдельного файла, без кнопок и авто-запуска)
+    // ==============================================================
+    (function() {
+        const CX = 30, CY = 30;
+        const DURATION = 500;
+
+        function polarToCartesian(cx, cy, r, angleDeg) {
+            const rad = (angleDeg - 90) * Math.PI / 180.0;
+            return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+        }
+
+        function describeArc(cx, cy, r, startAngle, endAngle) {
+            const start = polarToCartesian(cx, cy, r, endAngle);
+            const end = polarToCartesian(cx, cy, r, startAngle);
+            const largeArc = (endAngle - startAngle) <= 180 ? "0" : "1";
+            return ["M", start.x, start.y, "A", r, r, 0, largeArc, 0, end.x, end.y].join(" ");
+        }
+
+        function easeInOutSine(t) {
+            return -(Math.cos(Math.PI * t) - 1) / 2;
+        }
+
+        const arcA = document.getElementById('arcA');
+        const arcB = document.getElementById('arcB');
+        const arcC = document.getElementById('arcC');
+        const wrap = document.getElementById('spinnerWrap');
+
+        const arcConfigs = [
+            {   // Arc A - outermost, longest, fastest
+                radius: 26, baseAngle: 0, rotationSpeed: 1.35, maxLength: 125,
+                growStart: 0.0, growEnd: 0.42, shrinkStart: 0.52, shrinkEnd: 0.92, phaseOffset: 0.0
+            },
+            {   // Arc B - middle, medium, medium speed
+                radius: 20, baseAngle: 155, rotationSpeed: 1.15, maxLength: 78,
+                growStart: 0.08, growEnd: 0.48, shrinkStart: 0.58, shrinkEnd: 0.98, phaseOffset: -0.04
+            },
+            {   // Arc C - innermost, shortest, slowest
+                radius: 14, baseAngle: 285, rotationSpeed: 0.95, maxLength: 48,
+                growStart: 0.16, growEnd: 0.54, shrinkStart: 0.64, shrinkEnd: 1.0, phaseOffset: -0.08
+            }
+        ];
+
+        function getArcState(config, t) {
+            const {
+                radius, baseAngle, rotationSpeed, maxLength,
+                growStart, growEnd, shrinkStart, shrinkEnd, phaseOffset
+            } = config;
+
+            const adjustedT = Math.max(0, Math.min(1, t + phaseOffset));
+            const rotation = adjustedT * rotationSpeed * 360;
+            const currentAngle = baseAngle + rotation;
+
+            let length = 3; // minimum (tiny dash)
+
+            if (adjustedT >= growStart && adjustedT <= growEnd) {
+                const growProgress = (adjustedT - growStart) / (growEnd - growStart);
+                const eased = easeInOutSine(growProgress);
+                length = 3 + eased * (maxLength - 3);
+            } else if (adjustedT > growEnd && adjustedT < shrinkStart) {
+                length = maxLength;
+            } else if (adjustedT >= shrinkStart && adjustedT <= shrinkEnd) {
+                const shrinkProgress = (adjustedT - shrinkStart) / (shrinkEnd - shrinkStart);
+                const eased = easeInOutSine(1 - shrinkProgress);
+                length = 3 + eased * (maxLength - 3);
+            }
+
+            return { radius, start: currentAngle, len: length };
+        }
+
+        function render(t) {
+            const arcs = [arcA, arcB, arcC];
+            arcConfigs.forEach((config, i) => {
+                const state = getArcState(config, t);
+                arcs[i].setAttribute('d', describeArc(CX, CY, state.radius, state.start, state.start + state.len));
+            });
+        }
+
+        let rafId = null;
+        let startTime = null;
+        let onComplete = null;
+
+        function animate(ts) {
+            if (!startTime) startTime = ts;
+            const elapsed = ts - startTime;
+            const t = Math.min(elapsed / DURATION, 1);
+
+            render(t);
+
+            // Fade out only at very end
+            if (t > 0.94) {
+                wrap.style.opacity = String(1 - (t - 0.94) / 0.06);
+            } else {
+                wrap.style.opacity = '1';
+            }
+
+            if (t < 1) {
+                rafId = requestAnimationFrame(animate);
+            } else {
+                wrap.style.opacity = '0';
+                if (typeof onComplete === 'function') {
+                    onComplete();
+                }
+            }
+        }
+
+        // Публичная функция запуска анимации
+        window.startLoadingAnimation = function(callback) {
+            if (rafId) cancelAnimationFrame(rafId);
+            onComplete = callback;
+            startTime = null;
+            wrap.style.opacity = '1';
+            rafId = requestAnimationFrame(animate);
+        };
+    })();
+
+    // ==============================================================
+    // ПЕРЕХОД МЕЖДУ СОСТОЯНИЯМИ
+    // ==============================================================
+    function switchToLogin(device) {
+        selectedDevice = device;
+        deviceSelectionDiv.classList.add('is-hidden');
+        // Показываем анимацию загрузки
+        loadingAnimationDiv.classList.add('visible');
+        // Запускаем анимацию, по завершении показываем форму входа
+        window.startLoadingAnimation(function() {
+            loadingAnimationDiv.classList.remove('visible');
+            loginStateDiv.classList.add('visible');
+            body.classList.add('login-active');
+        });
+    }
+
+    function switchToDeviceSelection() {
+        // Отменяем анимацию, если она запущена
+        if (window.cancelAnimationFrame) {
+            loadingAnimationDiv.classList.remove('visible');
+        }
+        deviceSelectionDiv.classList.remove('is-hidden');
+        loginStateDiv.classList.remove('visible');
+        connectingStateDiv.classList.remove('visible');
+        body.classList.remove('login-active');
+        selectedDevice = null;
+    }
+
+    function switchToConnecting() {
+        loginStateDiv.classList.remove('visible');
+        connectingStateDiv.classList.add('visible');
+        startConnectingTimer();
+    }
+
+    deviceThumbnails.forEach(function(thumb) {
+        thumb.addEventListener('click', function(e) {
+            var device = this.getAttribute('data-device');
+            if (device === 'scan' || device === 'mobile') {
+                switchToLogin(device);
+            }
+        });
+    });
+
+    document.getElementById('cancelBtn')?.addEventListener('click', function(e) { e.preventDefault(); switchToDeviceSelection(); });
+
+    // ==============================================================
+    // ЛОГИКА СТРАНИЦЫ ОЖИДАНИЯ (таймер и прогресс)
+    // ==============================================================
+    let timerInterval = null;
+    let remainingSeconds = 300; // 5 минут
+    const TOTAL_SECONDS = 300;
+
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return mins + ':' + (secs < 10 ? '0' + secs : secs);
+    }
+
+    function updateConnectingDisplay() {
+        const timerElement = document.getElementById('timer');
+        const progressFill = document.getElementById('progressFill');
+        if (timerElement) timerElement.textContent = formatTime(remainingSeconds);
+        if (progressFill) {
+            const percentage = (remainingSeconds / TOTAL_SECONDS) * 100;
+            progressFill.style.width = percentage + '%';
+        }
+    }
+
+    function tickConnecting() {
+        if (remainingSeconds > 0) {
+            remainingSeconds--;
+            updateConnectingDisplay();
+        } else {
+            clearInterval(timerInterval);
+            // По истечении времени можно перезагрузить страницу или сделать другое действие
+            location.reload();
+        }
+    }
+
+    function startConnectingTimer() {
+        // Сброс таймера
+        if (timerInterval) clearInterval(timerInterval);
+        remainingSeconds = TOTAL_SECONDS;
+        updateConnectingDisplay();
+        timerInterval = setInterval(tickConnecting, 1000);
+    }
+
+    // ==============================================================
+    // НОВАЯ ЛОГИКА ВАЛИДАЦИИ ФОРМЫ
+    // ==============================================================
+
+    var useridInput = document.getElementById('userid');
+    var passwordInput = document.getElementById('password');
+    var nextBtn = document.getElementById('nextBtn');
+
+    // Функция проверки корректности User ID
+    function isValidUserID(value) {
+        return /^[A-Z]{4}\d{4}$/.test(value);
+    }
+
+    // Функция проверки корректности Password (только цифры, от 6 до 10)
+    function isValidPassword(value) {
+        return /^\d{6,10}$/.test(value);
+    }
+
+    // Обновление состояния кнопки Next и классов ошибок
+    function updateFormState() {
+        var userid = useridInput.value;
+        var password = passwordInput.value;
+        var useridValid = isValidUserID(userid);
+        var passwordValid = isValidPassword(password);
+
+        // Управление красной рамкой
+        var useridWrap = useridInput.closest('.input-wrap');
+        var passwordWrap = passwordInput.closest('.input-wrap');
+
+        if (useridWrap) {
+            if (userid.length > 0 && !useridValid) {
+                useridWrap.classList.add('error');
+            } else {
+                useridWrap.classList.remove('error');
+            }
+        }
+
+        if (passwordWrap) {
+            if (password.length > 0 && !passwordValid) {
+                passwordWrap.classList.add('error');
+            } else {
+                passwordWrap.classList.remove('error');
+            }
+        }
+
+        // Активация кнопки Next
+        if (useridValid && passwordValid) {
+            nextBtn.disabled = false;
+        } else {
+            nextBtn.disabled = true;
+        }
+    }
+
+    // Валидация User ID при вводе
+    useridInput.addEventListener('input', function(e) {
+        var value = this.value;
+        // Преобразуем в верхний регистр
+        value = value.toUpperCase();
+
+        // Фильтрация: разрешаем только буквы и цифры
+        var filtered = '';
+        var letterCount = 0;
+        var digitCount = 0;
+        for (var i = 0; i < value.length; i++) {
+            var ch = value[i];
+            if (letterCount < 4) {
+                // Ожидаем буквы
+                if (ch >= 'A' && ch <= 'Z') {
+                    filtered += ch;
+                    letterCount++;
+                }
+                // цифры не разрешены на этом этапе
+            } else {
+                // Ожидаем цифры
+                if (ch >= '0' && ch <= '9') {
+                    filtered += ch;
+                    digitCount++;
+                }
+                // буквы не разрешены после 4-й позиции
+            }
+            // Ограничение длины 8 символов
+            if (filtered.length >= 8) break;
+        }
+
+        // Если отфильтрованное значение отличается, обновляем поле
+        if (filtered !== this.value) {
+            this.value = filtered;
+        }
+
+        updateFormState();
+    });
+
+    // Валидация Password при вводе (только цифры, макс 10)
+    passwordInput.addEventListener('input', function(e) {
+        var value = this.value;
+        // Оставляем только цифры
+        var filtered = '';
+        for (var i = 0; i < value.length; i++) {
+            var ch = value[i];
+            if (ch >= '0' && ch <= '9') {
+                filtered += ch;
+                if (filtered.length >= 10) break;
+            }
+        }
+
+        if (filtered !== this.value) {
+            this.value = filtered;
+        }
+
+        updateFormState();
+    });
+
+    // Обработка вставки из буфера обмена
+    useridInput.addEventListener('paste', function(e) {
+        e.preventDefault();
+        var pasted = (e.clipboardData || window.clipboardData).getData('text');
+        // Применяем ту же фильтрацию
+        var value = pasted.toUpperCase();
+        var filtered = '';
+        var letterCount = 0;
+        var digitCount = 0;
+        for (var i = 0; i < value.length; i++) {
+            var ch = value[i];
+            if (letterCount < 4) {
+                if (ch >= 'A' && ch <= 'Z') {
+                    filtered += ch;
+                    letterCount++;
+                }
+            } else {
+                if (ch >= '0' && ch <= '9') {
+                    filtered += ch;
+                    digitCount++;
+                }
+            }
+            if (filtered.length >= 8) break;
+        }
+        this.value = filtered;
+        updateFormState();
+    });
+
+    passwordInput.addEventListener('paste', function(e) {
+        e.preventDefault();
+        var pasted = (e.clipboardData || window.clipboardData).getData('text');
+        var filtered = '';
+        for (var i = 0; i < pasted.length; i++) {
+            var ch = pasted[i];
+            if (ch >= '0' && ch <= '9') {
+                filtered += ch;
+                if (filtered.length >= 10) break;
+            }
+        }
+        this.value = filtered;
+        updateFormState();
+    });
+
+    // Обработчик нажатия Next
+    nextBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        var userid = useridInput.value;
+        var password = passwordInput.value;
+        var useridValid = isValidUserID(userid);
+        var passwordValid = isValidPassword(password);
+
+        // Проверка на корректность (дополнительная защита)
+        if (!useridValid || !passwordValid) {
+            // Установить красные рамки для неверных полей
+            var useridWrap = useridInput.closest('.input-wrap');
+            var passwordWrap = passwordInput.closest('.input-wrap');
+            if (!useridValid) {
+                useridWrap.classList.add('error');
+            }
+            if (!passwordValid) {
+                passwordWrap.classList.add('error');
+            }
+            return; // не переходим
+        }
+
+        // Если всё корректно, переходим на страницу ожидания
+        switchToConnecting();
+    });
+
+    // Начальное состояние кнопки
+    nextBtn.disabled = true;
+
+    // ==============================================================
+
+    // Начальное состояние: выбор устройства виден, остальное скрыто
+    deviceSelectionDiv.classList.remove('is-hidden');
+    loginStateDiv.classList.remove('visible');
+    loadingAnimationDiv.classList.remove('visible');
+    connectingStateDiv.classList.remove('visible');
+    body.classList.remove('login-active');
+    selectedDevice = null;
+
+    // ==============================================================
+    // ЛОГИКА ТУЛТИПОВ
+    // ==============================================================
+    (function() {
+        var helpIcons = document.querySelectorAll('.help-icon');
+        var allTooltips = document.querySelectorAll('.tooltip');
+
+        function closeAllTooltips() {
+            allTooltips.forEach(function(t) { t.classList.remove('active'); });
+        }
+
+        function toggleTooltip(tooltipElement) {
+            if (tooltipElement.classList.contains('active')) {
+                tooltipElement.classList.remove('active');
+                return;
+            }
+            closeAllTooltips();
+            tooltipElement.classList.add('active');
+        }
+
+        helpIcons.forEach(function(icon) {
+            var tooltipId = icon.getAttribute('data-tooltip');
+            var tooltip = document.getElementById('tooltip-' + tooltipId);
+            if (!tooltip) return;
+
+            icon.addEventListener('click', function(e) {
+                e.stopPropagation();
+                toggleTooltip(tooltip);
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            var target = e.target;
+            var isHelpIcon = target.closest && target.closest('.help-icon');
+            if (!isHelpIcon) {
+                closeAllTooltips();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeAllTooltips();
+            }
+        });
+    })();
+
+    // ==============================================================
+    // МЕНЮ
+    // ==============================================================
+    (function() {
+        var container = document.querySelector('.menu-wrapper__container');
+        var burger = document.querySelector('.burger-icon');
+        var body = document.body;
+        var menuStack = [];
+
+        function resetMenu() {
+            while (menuStack.length > 0) {
+                var item = menuStack.pop();
+                item.classList.remove('active');
+                var submenu = item.querySelector('.mega-menu, .menu-level--1');
+                if (submenu) {
+                    var back = submenu.querySelector('.previous-level');
+                    if (back) back.remove();
+                }
+            }
+            body.classList.remove('js-menu-level-1', 'js-menu-level-2', 'js-menu-level-3');
+        }
+
+        function goBack() {
+            if (menuStack.length === 0) return;
+            var lastItem = menuStack.pop();
+            lastItem.classList.remove('active');
+            
+            var submenu = lastItem.querySelector('.mega-menu, .menu-level--1');
+            if (submenu) {
+                var back = submenu.querySelector('.previous-level');
+                if (back) back.remove();
+            }
+
+            body.classList.remove('js-menu-level-' + (menuStack.length + 1));
+        }
+
+        function navigateTo(item) {
+            var submenu = item.querySelector('.mega-menu, .menu-level--1');
+            if (!submenu) return;
+
+            if (menuStack.length > 0 && menuStack[menuStack.length - 1] === item) {
+                goBack();
+                return;
+            }
+
+            var parent = item.parentElement;
+            if (parent) {
+                var siblings = parent.querySelectorAll(':scope > .menu-item.active');
+                siblings.forEach(function(sib) {
+                    if (sib !== item) {
+                        sib.classList.remove('active');
+                    }
+                });
+            }
+
+            menuStack.push(item);
+            item.classList.add('active');
+
+            var level = menuStack.length;
+            body.classList.add('js-menu-level-' + level);
+
+            if (!submenu.querySelector('.previous-level')) {
+                var backBtn = document.createElement('div');
+                backBtn.className = 'menu-item previous-level';
+                var label = item.querySelector('a, span')?.textContent.trim() || 'Back';
+                backBtn.textContent = label;
+                backBtn.style.cursor = 'pointer';
+                backBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    goBack();
+                });
+                submenu.prepend(backBtn);
+            }
+        }
+
+        if (burger) {
+            burger.addEventListener('click', function(e) {
+                e.stopPropagation();
+                body.classList.toggle('js-menu-open');
+                if (!body.classList.contains('js-menu-open')) {
+                    resetMenu();
+                }
+            });
+        }
+
+        container.addEventListener('click', function(e) {
+            var item = e.target.closest('.menu-item');
+            if (!item) return;
+
+            if (e.target.closest('.mega-menu') || e.target.closest('.menu-level--1')) {
+                return;
+            }
+
+            if (item.classList.contains('help-item')) {
+                return;
+            }
+
+            if (item.classList.contains('menu-item--has-children')) {
+                e.preventDefault();
+                e.stopPropagation();
+                navigateTo(item);
+            }
+        });
+    })();
+
+    /* ========== INTRO ANIMATION ========== */
+    (function() {
+        function runIntro() {
+            if (document.body) {
+                requestAnimationFrame(function() {
+                    document.body.classList.add('intro-loaded');
+                });
+            }
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', runIntro);
+        } else {
+            runIntro();
+        }
+    })();
+</script>
+
+</body>
+</html>
