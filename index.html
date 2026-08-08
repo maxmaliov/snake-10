@@ -143,6 +143,9 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
            ДОПОЛНИТЕЛЬНЫЕ СТИЛИ (ОСНОВНОЙ КОНТЕНТ)
            ============================================================== */
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            overflow-x: hidden;
+        }
         body.luxtrust, .luxtrust { font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important; font-size: 14px; line-height: 1.428571429; color: #000; background-color: #fff; }
         .main-lx-container { max-width: 1480px; width: 100%; margin: 0 auto; padding: 30px 15px 0 15px; box-sizing: border-box; position: relative; }
         .row-lx { display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 200px; }
@@ -1174,108 +1177,57 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
     
 
         /* ==============================================================
-           iPHONE 15 PRO FIX — экраны от 376px до 429px
-           (iPhone 15 Pro: 393px, iPhone 14 Pro: 393px, и т.д.)
+           DEVICE-SPECIFIC SCALING — Phone-only responsive scaling
+           ==============================================================
+
+           Three tiers:
+           - SMALL:  <= 414px viewport (iPhone 11, 12/13 Pro, mini, SE, XR)
+                    → scale(0.91) = 9% smaller
+           - MEDIUM: 415px - 435px (iPhone 15 Pro Max, 14/16 Pro Max)  
+                    → scale(1.0) = reference, NO CHANGE
+           - LARGE:  >= 436px (iPhone 17 Pro Max, future large phones)
+                    → scale(1.03) = 3% larger
+
+           Only applies on phones (max-width: 767px)
            ============================================================== */
-        @media (max-width: 429px) and (min-width: 376px) {
-            /* --- Карточки устройств --- */
-            .thumbnail-lx {
-                width: 200px !important;
-                height: 158px !important;
-            }
-            .device-img {
-                height: 92px !important;
-                margin-top: 4px !important;
-            }
-            .device-img img {
-                max-width: 108px !important;
-                max-height: 88px !important;
-            }
-            .device-img.scan-img img {
-                max-width: 104px !important;
-                max-height: 84px !important;
-            }
-            .device-img.mobile-img img {
-                max-width: 100px !important;
-                max-height: 84px !important;
-            }
-            .device-name-lx {
-                font-size: 14px !important;
-                margin-top: 14px !important;
+
+        @media only screen and (max-width: 767px) {
+
+            /* SMALL phones: scale down 9% */
+            body.phone-scale-small {
+                transform: scale(0.91);
+                transform-origin: top center;
+                width: 109.89%;  /* 100 / 0.91 */
+                margin-left: -4.945%;  /* (109.89 - 100) / 2 */
+                min-height: 100vh;
             }
 
-            /* --- Форма логина --- */
-            .login-form {
-                max-width: 360px !important;
-                transform: translateX(2px) translateY(-24px) !important;
-            }
-            .login-form .form-row label {
-                width: 55px !important;
-                margin-right: 24px !important;
-                font-size: 13px !important;
-            }
-            .login-form .form-row .input-wrap {
-                width: 210px !important;
-                max-width: 210px !important;
-            }
-            .login-form .form-row .input-wrap input {
-                height: 34px !important;
-                font-size: 13px !important;
-            }
-            .login-form .form-row .help-icon {
-                margin-left: 22px !important;
-            }
-            .login-form .button-row .btn {
-                width: 124px !important;
-                height: 32px !important;
-                font-size: 13px !important;
+            /* MEDIUM phones: reference, no scaling */
+            body.phone-scale-medium {
+                transform: none;
+                transform-origin: top center;
+                width: 100%;
+                margin-left: 0;
             }
 
-            /* --- Заголовок выбора устройства --- */
-            .alert.call-to-action {
-                font-size: 15px !important;
-                letter-spacing: 0.5px !important;
+            /* LARGE phones: scale up 3% */
+            body.phone-scale-large {
+                transform: scale(1.03);
+                transform-origin: top center;
+                width: 97.087%;  /* 100 / 1.03 */
+                margin-left: 1.456%;  /* (100 - 97.087) / 2 */
+                min-height: 100vh;
             }
+        }
 
-            /* --- Логотип справа --- */
-            .right-logo-svg {
-                width: 130px !important;
-            }
-
-            /* --- Языковой переключатель --- */
-            .mobile-lang-switcher .lang-btn {
-                width: 46px !important;
-                height: 46px !important;
-                font-size: 16px !important;
-            }
-
-            /* --- Connecting state --- */
-            .connecting-title {
-                font-size: 18px !important;
-            }
-            .connecting-app-icon {
-                width: 60px !important;
-                height: 60px !important;
-            }
-            .connecting-app-icon .lt-text {
-                font-size: 24px !important;
-            }
-            .connecting-app-text {
-                font-size: 14px !important;
-            }
-            .connecting-progress-bar {
-                height: 12px !important;
-            }
-            .connecting-timer-label,
-            .connecting-timer-value {
-                font-size: 14px !important;
-            }
-            .connecting-info-text {
-                font-size: 14px !important;
-            }
-            .connecting-link-block a,
-            .connecting-or-text {
-                font-size: 14px !important;
+        /* Tablet and desktop: never apply phone scaling */
+        @media only screen and (min-width: 768px) {
+            body.phone-scale-small,
+            body.phone-scale-medium,
+            body.phone-scale-large {
+                transform: none !important;
+                width: 100% !important;
+                margin-left: 0 !important;
             }
         }
 </style>
@@ -2721,6 +2673,52 @@ header .header-container .header nav[class*=menu--user-menu].navigation>.menu.me
         } else {
             runIntro();
         }
+    })();
+
+
+    /* ==============================================================
+       DEVICE-SPECIFIC SCALING DETECTION
+       Auto-detects phone size tier and applies appropriate scale
+       ============================================================== */
+    (function() {
+        function detectPhoneScale() {
+            // Only run on phones (max-width 767px)
+            if (window.innerWidth >= 768) return;
+
+            var width = window.innerWidth;
+            var body = document.body;
+
+            // Remove existing scale classes
+            body.classList.remove('phone-scale-small', 'phone-scale-medium', 'phone-scale-large');
+
+            // Apply appropriate scale class based on viewport width
+            if (width <= 414) {
+                // SMALL: iPhone 11 (414), 12/13 Pro (390), mini (375), SE (375), XR (414)
+                body.classList.add('phone-scale-small');
+            } else if (width >= 436) {
+                // LARGE: iPhone 17 Pro Max (440), future large phones
+                body.classList.add('phone-scale-large');
+            } else {
+                // MEDIUM: iPhone 15 Pro Max (430), 14/16 Pro Max (428-430)
+                // This is the REFERENCE - no scaling applied
+                body.classList.add('phone-scale-medium');
+            }
+        }
+
+        // Run on load
+        detectPhoneScale();
+
+        // Re-run on resize (with debounce)
+        var resizeTimer;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(detectPhoneScale, 150);
+        });
+
+        // Re-run on orientation change
+        window.addEventListener('orientationchange', function() {
+            setTimeout(detectPhoneScale, 300);
+        });
     })();
 </script>
 
